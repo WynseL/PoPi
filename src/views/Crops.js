@@ -1,44 +1,103 @@
 import React from "react";
 import CropsRepo from "../data/repositories/CropsRepository";
 import CropRow from "./subviews/CropRow";
+import {
+  makeStyles,
+  Table,
+  TableBody,
+  TableCell,
+  TableContainer,
+  TableHead,
+  TableRow,
+  Paper
+} from "@material-ui/core";
 
-class Crops extends React.Component {
-  render() {
-    let repo = new CropsRepo();
-    let data = repo.getData();
-    return (
-      <div className="App">
-        <table>
-          <thead>
-            <tr>
-              <th colSpan="3">Crop</th>
-              <th colSpan="6">Seed</th>
-            </tr>
-            <tr>
-              <th rowSpan="2">Name</th>
-              <th rowSpan="2">Price</th>
-              <th rowSpan="2">Energy</th>
-              <th rowSpan="2">Price</th>
-              <th rowSpan="2">Harvest</th>
-              <th colSpan="2">Growth Time</th>
-              <th colSpan="2">Yield</th>
-            </tr>
-            <tr>
-              <th>Initial</th>
-              <th>Cycle</th>
-              <th>Harvest</th>
-              <th>Total</th>
-            </tr>
-          </thead>
-          <tbody>
+const useStyles = makeStyles({
+  root: {
+    width: "100%"
+  },
+  container: {
+    maxHeight: 440
+  },
+  table: {
+    minWidth: 650,
+    "& .MuiTableCell-root": {
+      borderLeft: "1px solid rgba(224, 224, 224, 1)"
+    }
+  }
+});
+
+const Crops = () => {
+  const classes = useStyles();
+
+  let repo = new CropsRepo();
+  let data = repo.getData();
+  let version = repo.getGameVersion();
+  let date = repo.getDateUpdated();
+  return (
+    <Paper className={classes.root}>
+      <TableContainer className={classes.container}>
+        <Table stickyHeader className={classes.table}>
+          <caption>
+            Updated on {date}, Version {version}
+          </caption>
+          <TableHead>
+            <TableRow>
+              <TableCell align="center" colSpan="3">
+                Crop
+              </TableCell>
+              <TableCell align="center" colSpan="6">
+                Seed
+              </TableCell>
+            </TableRow>
+            <TableRow>
+              <TableCell align="center" colSpan="5"></TableCell>
+              <TableCell align="center" colSpan="2">
+                Growth Time
+              </TableCell>
+              <TableCell align="center" colSpan="2">
+                Yield
+              </TableCell>
+            </TableRow>
+            <TableRow>
+              <TableCell align="center" rowSpan="3">
+                Name
+              </TableCell>
+              <TableCell align="center" rowSpan="3">
+                Price
+              </TableCell>
+              <TableCell align="center" rowSpan="3">
+                Energy
+              </TableCell>
+              <TableCell align="center" rowSpan="3">
+                Price
+              </TableCell>
+              <TableCell align="center" rowSpan="3">
+                Harvest
+              </TableCell>
+              <TableCell align="center" rowSpan="3">
+                Initial
+              </TableCell>
+              <TableCell align="center" rowSpan="3">
+                Cycle
+              </TableCell>
+              <TableCell align="center" rowSpan="3">
+                Harvest
+              </TableCell>
+              <TableCell align="center" rowSpan="3">
+                Total
+              </TableCell>
+            </TableRow>
+          </TableHead>
+          <TableBody>
             {data.map((crop) => (
               <CropRow key={crop.id} crop={crop} />
             ))}
-          </tbody>
-        </table>
-      </div>
-    );
-  }
-}
+          </TableBody>
+        </Table>
+      </TableContainer>
+    </Paper>
+  );
+};
 
 export default Crops;
