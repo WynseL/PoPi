@@ -1,0 +1,28 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+table,
+th,
+td {
+  border-collapse: collapse;
+}
+
+.full-width,
+table {
+  display: block;
+  max-width: 100%;
+}
+
+th,
+td {
+  margin: 0;
+  padding: 0.3rem;
+  border: 1px solid black;
+  width: 1%;
+}
+
+#name {
+  text-align: left;
+}
