@@ -10,18 +10,21 @@ import {
 import { TabContext, TabPanel } from "@material-ui/lab";
 import MenuIcon from "@material-ui/icons/Menu";
 
+import useWindowDimensions from "./subviews/ScreenSize";
+
 import CropsScreen from "./Crops";
 import ToolsScreen from "./Tools";
 import OrdersScreen from "./Orders";
 
 const Navigation = () => {
+  const { height, width } = useWindowDimensions();
   const [key, setKey] = useState("0");
   const setKeyListener = (event, newValue) => {
     setKey(newValue);
   };
 
   return (
-    <TabContext value={key} class="full-width">
+    <TabContext value={key} width={width}>
       <AppBar position="static">
         <Toolbar>
           <IconButton
@@ -43,7 +46,7 @@ const Navigation = () => {
       </AppBar>
       <TabPanel value="0">asd</TabPanel>
       <TabPanel value="1">
-        <CropsScreen />
+        <CropsScreen height={height} width={width} />
       </TabPanel>
       <TabPanel value="2">
         <ToolsScreen />

@@ -12,22 +12,23 @@ import {
   Paper
 } from "@material-ui/core";
 
-const useStyles = makeStyles({
-  root: {
-    width: "100%"
-  },
-  container: {
-    maxHeight: 440
-  },
-  table: {
-    minWidth: 650,
-    "& .MuiTableCell-root": {
-      borderLeft: "1px solid rgba(224, 224, 224, 1)"
+const Crops = (props) => {
+  const { height, width } = props;
+  const useStyles = makeStyles({
+    root: {
+      width: "100%"
+    },
+    container: {
+      maxHeight: height
+    },
+    table: {
+      minWidth: width,
+      "& .MuiTableCell-root": {
+        borderLeft: "1px solid rgba(224, 224, 224, 1)"
+      }
     }
-  }
-});
+  });
 
-const Crops = () => {
   const classes = useStyles();
 
   let repo = new CropsRepo();
