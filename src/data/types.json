@@ -1,0 +1,50 @@
+[
+  {
+    "id": "0001",
+    "type": "Crop"
+  },
+  {
+    "id": "0002",
+    "type": "Seed"
+  },
+  {
+    "id": "0003",
+    "type": "Food"
+  },
+  {
+    "id": "0004",
+    "type": "Wood"
+  },
+  {
+    "id": "0005",
+    "type": "Mineral"
+  },
+  {
+    "id": "0006",
+    "type": "Ore"
+  },
+  {
+    "id": "0007",
+    "type": "Stone"
+  },
+  {
+    "id": "0008",
+    "type": "Fish"
+  },
+  {
+    "id": "0009",
+    "type": "Upgrade"
+  },
+  {
+    "id": "0010",
+    "type": "Tool"
+  },
+  {
+    "id": "0011",
+    "type": "Bar"
+  },
+  {
+    "id": "0012",
+    "type": "Non-Bar"
+  }
+]

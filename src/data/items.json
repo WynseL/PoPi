@@ -1,0 +1,580 @@
+{
+  "gameVersion": "0.2.4",
+  "dateUpdated": "16/07/2021",
+  "items": [
+    {
+      "id": "0000_0001",
+      "name": "Wood",
+      "type": "0004",
+      "buyValue": 0,
+      "sellValue": 4
+    },
+    {
+      "id": "0000_0002",
+      "name": "Red Wood",
+      "type": "0004",
+      "buyValue": 0,
+      "sellValue": 27
+    },
+    {
+      "id": "0000_0003",
+      "name": "Hardwood",
+      "type": "0004",
+      "buyValue": 0,
+      "sellValue": 70
+    },
+    {
+      "id": "0001_0001",
+      "name": "Carrot",
+      "type": "0001",
+      "subtype": "0003",
+      "buyValue": 0,
+      "sellValue": 0,
+      "recipe": "[{\"seed_id\": \"0002_0001\"}]",
+      "info": "{\"energy\": 5}"
+    },
+    {
+      "id": "0001_0002",
+      "name": "Wheat",
+      "type": "0001",
+      "subtype": "0003",
+      "buyValue": 0,
+      "sellValue": 7,
+      "recipe": "[{\"seed_id\": \"0002_0002\"}]",
+      "info": "{\"energy\": 5}"
+    },
+    {
+      "id": "0001_0003",
+      "name": "Cabbage",
+      "type": "0001",
+      "subtype": "0003",
+      "buyValue": 0,
+      "sellValue": 24,
+      "recipe": "[{\"seed_id\": \"0002_0003\"}]",
+      "info": "{\"energy\": 10}"
+    },
+    {
+      "id": "0001_0004",
+      "name": "Apple",
+      "type": "0001",
+      "subtype": "0003",
+      "buyValue": 0,
+      "sellValue": 0,
+      "recipe": "[{\"seed_id\": \"0002_0004\"}]",
+      "info": "{\"energy\": 5}"
+    },
+    {
+      "id": "0001_0005",
+      "name": "Tomato",
+      "type": "0001",
+      "subtype": "0003",
+      "buyValue": 0,
+      "sellValue": 11,
+      "recipe": "[{\"seed_id\": \"0002_0005\"}]",
+      "info": "{\"energy\": 5}"
+    },
+    {
+      "id": "0001_0006",
+      "name": "Beet",
+      "type": "0001",
+      "subtype": "0003",
+      "buyValue": 0,
+      "sellValue": 0,
+      "recipe": "[{\"seed_id\": \"0002_0006\"}]",
+      "info": "{\"energy\": 5}"
+    },
+    {
+      "id": "0001_0007",
+      "name": "Corn",
+      "type": "0001",
+      "subtype": "0003",
+      "buyValue": 0,
+      "sellValue": 11,
+      "recipe": "[{\"seed_id\": \"0002_0007\"}]",
+      "info": "{\"energy\": 4}"
+    },
+    {
+      "id": "0001_0008",
+      "name": "Onion",
+      "type": "0001",
+      "subtype": "0003",
+      "buyValue": 0,
+      "sellValue": 38,
+      "recipe": "[{\"seed_id\": \"0002_0008\"}]",
+      "info": "{\"energy\": 15}"
+    },
+    {
+      "id": "0001_0009",
+      "name": "Sunflower",
+      "type": "0001",
+      "buyValue": 0,
+      "sellValue": 32,
+      "recipe": "[{\"seed_id\": \"0002_0009\"}]",
+      "info": "{\"energy\": 0}"
+    },
+    {
+      "id": "0001_0010",
+      "name": "Potato",
+      "type": "0001",
+      "subtype": "0003",
+      "buyValue": 0,
+      "sellValue": 8,
+      "recipe": "[{\"seed_id\": \"0002_0010\"}]",
+      "info": "{\"energy\": 3}"
+    },
+    {
+      "id": "0001_0011",
+      "name": "Garlic",
+      "type": "0001",
+      "subtype": "0003",
+      "buyValue": 0,
+      "sellValue": 90,
+      "recipe": "[{\"seed_id\": \"0002_0011\"}]",
+      "info": "{\"energy\": 20}"
+    },
+    {
+      "id": "0001_0012",
+      "name": "Chili Pepper",
+      "type": "0001",
+      "subtype": "0003",
+      "buyValue": 0,
+      "sellValue": 31,
+      "recipe": "[{\"seed_id\": \"0002_0012\"}]",
+      "info": "{\"energy\": 5}"
+    },
+    {
+      "id": "0002_0001",
+      "name": "Carrot Seed",
+      "type": "0002",
+      "buyValue": 10,
+      "sellValue": 0,
+      "info": "{\"harvest_count\": 1, \"grow_time_initial\": 30, \"grow_time_after_harvest\": 0, \"yield_per_harvest\": 1}"
+    },
+    {
+      "id": "0002_0002",
+      "name": "Wheat Seed",
+      "type": "0002",
+      "description": "Seeds that grow into 3 wheat plants. Seeds are for sale in Frances' shop.",
+      "buyValue": 16,
+      "sellValue": 0,
+      "info": "{\"harvest_count\": 1, \"grow_time_initial\": 180, \"grow_time_after_harvest\": 0, \"yield_per_harvest\": 3}"
+    },
+    {
+      "id": "0002_0003",
+      "name": "Cabbage Seed",
+      "type": "0002",
+      "buyValue": 21,
+      "sellValue": 0,
+      "info": "{\"harvest_count\": 1, \"grow_time_initial\": 900, \"grow_time_after_harvest\": 0, \"yield_per_harvest\": 1}"
+    },
+    {
+      "id": "0002_0004",
+      "name": "Apple Sapling",
+      "type": "0002",
+      "buyValue": 350,
+      "sellValue": 0,
+      "info": "{\"harvest_count\": 5, \"grow_time_initial\": 21600, \"grow_time_after_harvest\": 14400, \"yield_per_harvest\": 3}"
+    },
+    {
+      "id": "0002_0005",
+      "name": "Tomato Seed",
+      "type": "0002",
+      "buyValue": 41,
+      "sellValue": 0,
+      "info": "{\"harvest_count\": 3, \"grow_time_initial\": 10800, \"grow_time_after_harvest\": 7200, \"yield_per_harvest\": 1}"
+    },
+    {
+      "id": "0002_0006",
+      "name": "Beet Seed",
+      "type": "0002",
+      "buyValue": 40,
+      "sellValue": 0,
+      "info": "{\"harvest_count\": 1, \"grow_time_initial\": 2700, \"grow_time_after_harvest\": 0, \"yield_per_harvest\": 1}"
+    },
+    {
+      "id": "0002_0007",
+      "name": "Corn Kernel",
+      "type": "0002",
+      "buyValue": 55,
+      "sellValue": 0,
+      "info": "{\"harvest_count\": 2, \"grow_time_initial\": 3600, \"grow_time_after_harvest\": 900, \"yield_per_harvest\": 4}"
+    },
+    {
+      "id": "0002_0008",
+      "name": "Onion Seed",
+      "type": "0002",
+      "buyValue": 60,
+      "sellValue": 0,
+      "info": "{\"harvest_count\": 1, \"grow_time_initial\": 1200, \"grow_time_after_harvest\": 0, \"yield_per_harvest\": 2}"
+    },
+    {
+      "id": "0002_0009",
+      "name": "Sunflower Seed",
+      "type": "0002",
+      "buyValue": 80,
+      "sellValue": 0,
+      "info": "{\"harvest_count\": 1, \"grow_time_initial\": 1200, \"grow_time_after_harvest\": 0, \"yield_per_harvest\": 3}"
+    },
+    {
+      "id": "0002_0010",
+      "name": "Potato Seed",
+      "type": "0002",
+      "buyValue": 58,
+      "sellValue": 0,
+      "info": "{\"harvest_count\": 1, \"grow_time_initial\": 1200, \"grow_time_after_harvest\": 0, \"yield_per_harvest\": 9}"
+    },
+    {
+      "id": "0002_0011",
+      "name": "Garlic Seed",
+      "type": "0002",
+      "buyValue": 69,
+      "sellValue": 0,
+      "info": "{\"harvest_count\": 1, \"grow_time_initial\": 1800, \"grow_time_after_harvest\": 0, \"yield_per_harvest\": 1}"
+    },
+    {
+      "id": "0002_0012",
+      "name": "Chili Pepper Seed",
+      "type": "0002",
+      "buyValue": 135,
+      "sellValue": 0,
+      "info": "{\"harvest_count\": 3, \"grow_time_initial\": 10800, \"grow_time_after_harvest\": 7200, \"yield_per_harvest\": 3}"
+    },
+    {
+      "id": "0003_0001",
+      "name": "Stone",
+      "type": "0005",
+      "subtype": "0007",
+      "buyValue": 0,
+      "sellValue": 2
+    },
+    {
+      "id": "0003_0002",
+      "name": "Coal",
+      "type": "0005",
+      "buyValue": 0,
+      "sellValue": 5
+    },
+    {
+      "id": "0003_0003",
+      "name": "Iron Ore",
+      "type": "0005",
+      "subtype": "0006",
+      "buyValue": 0,
+      "sellValue": 7
+    },
+    {
+      "id": "0003_0004",
+      "name": "Quartz Ore",
+      "type": "0005",
+      "subtype": "0006",
+      "buyValue": 0,
+      "sellValue": 8
+    },
+    {
+      "id": "0003_0005",
+      "name": "Copper Ore",
+      "type": "0005",
+      "subtype": "0006",
+      "buyValue": 0,
+      "sellValue": 11
+    },
+    {
+      "id": "0003_0006",
+      "name": "Limestone",
+      "type": "0005",
+      "subtype": "0007",
+      "buyValue": 0,
+      "sellValue": 10
+    },
+    {
+      "id": "0003_0007",
+      "name": "Amber",
+      "type": "0005",
+      "subtype": "0006",
+      "buyValue": 0,
+      "sellValue": 17
+    },
+    {
+      "id": "0003_0008",
+      "name": "Tin Ore",
+      "type": "0005",
+      "subtype": "0006",
+      "buyValue": 0,
+      "sellValue": 17
+    },
+    {
+      "id": "0003_0009",
+      "name": "Amethyst Ore",
+      "type": "0005",
+      "subtype": "0006",
+      "buyValue": 0,
+      "sellValue": 28
+    },
+    {
+      "id": "0003_0010",
+      "name": "Emerald Ore",
+      "type": "0005",
+      "subtype": "0006",
+      "buyValue": 0,
+      "sellValue": 43
+    },
+    {
+      "id": "0003_0011",
+      "name": "Marble",
+      "type": "0005",
+      "subtype": "0007",
+      "buyValue": 0,
+      "sellValue": 23
+    },
+    {
+      "id": "0003_0012",
+      "name": "Jade Ore",
+      "type": "0005",
+      "subtype": "0006",
+      "buyValue": 0,
+      "sellValue": 66
+    },
+    {
+      "id": "0003_0013",
+      "name": "Silver Ore",
+      "type": "0005",
+      "subtype": "0006",
+      "buyValue": 0,
+      "sellValue": 66
+    },
+    {
+      "id": "0003_0014",
+      "name": "Opal Ore",
+      "type": "0005",
+      "subtype": "0006",
+      "buyValue": 0,
+      "sellValue": 100
+    },
+    {
+      "id": "0003_0015",
+      "name": "Gold Ore",
+      "type": "0005",
+      "subtype": "0006",
+      "buyValue": 0,
+      "sellValue": 100
+    },
+    {
+      "id": "0003_0016",
+      "name": "Granite",
+      "type": "0005",
+      "subtype": "0007",
+      "buyValue": 0,
+      "sellValue": 47
+    },
+    {
+      "id": "0003_0017",
+      "name": "Ruby Ore",
+      "type": "0005",
+      "subtype": "0006",
+      "buyValue": 0,
+      "sellValue": 153
+    },
+    {
+      "id": "0003_0018",
+      "name": "Diamond Ore",
+      "type": "0005",
+      "subtype": "0006",
+      "buyValue": 0,
+      "sellValue": 0
+    },
+    {
+      "id": "0004_0001",
+      "name": "Rusty Axe",
+      "type": "0010",
+      "subtype": "0004",
+      "buyValue": 60,
+      "sellValue": 0,
+      "recipe": "[{\"item_id\": \"0003_0001\", \"amount\": 3}]",
+      "info": "{\"uses_count\": 8}"
+    },
+    {
+      "id": "0004_0002",
+      "name": "Iron Axe",
+      "type": "0010",
+      "subtype": "0004",
+      "buyValue": 152,
+      "sellValue": 0,
+      "recipe": "[{\"item_id\": \"0000_0001\", \"amount\": 8}, {\"item_id\": \"0003_0003\", \"amount\": 2}]",
+      "info": "{\"uses_count\": 12}"
+    },
+    {
+      "id": "0004_0003",
+      "name": "Copper Axe",
+      "type": "0010",
+      "subtype": "0004",
+      "buyValue": 334,
+      "sellValue": 0,
+      "recipe": "[{\"item_id\": \"0000_0001\", \"amount\": 16}, {\"item_id\": \"0003_0002\", \"amount\": 2}, {\"item_id\": \"0003_0005\", \"amount\": 2}]",
+      "info": "{\"uses_count\": 14}"
+    },
+    {
+      "id": "0004_0004",
+      "name": "Tin Axe",
+      "type": "0010",
+      "subtype": "0004",
+      "buyValue": 612,
+      "sellValue": 0,
+      "recipe": "[{\"item_id\": \"0000_0001\", \"amount\": 30}, {\"item_id\": \"0003_0002\", \"amount\": 5}, {\"item_id\": \"0003_0008\", \"amount\": 2}]",
+      "info": "{\"uses_count\": 16}"
+    },
+    {
+      "id": "0004_0005",
+      "name": "Steel Axe",
+      "type": "0010",
+      "subtype": "0004",
+      "buyValue": 730,
+      "sellValue": 0,
+      "recipe": "[{\"item_id\": \"0000_0001\", \"amount\": 40}, {\"item_id\": \"0003_0002\", \"amount\": 5}, {\"item_id\": \"0007_0006\", \"amount\": 1}]",
+      "info": "{\"uses_count\": 18}"
+    },
+    {
+      "id": "0005_0001",
+      "name": "Rusty Pickaxe",
+      "type": "0010",
+      "subtype": "0005",
+      "buyValue": 60,
+      "sellValue": 0,
+      "recipe": "[{\"item_id\": \"0003_0001\", \"amount\": 3}]",
+      "info": "{\"uses_count\": 8}"
+    },
+    {
+      "id": "0005_0002",
+      "name": "Iron Pickaxe",
+      "type": "0010",
+      "subtype": "0005",
+      "buyValue": 152,
+      "sellValue": 0,
+      "recipe": "[{\"item_id\": \"0000_0001\", \"amount\": 8}, {\"item_id\": \"0003_0003\", \"amount\": 2}]",
+      "info": "{\"uses_count\": 12}"
+    },
+    {
+      "id": "0005_0003",
+      "name": "Copper Pickaxe",
+      "type": "0010",
+      "subtype": "0005",
+      "buyValue": 334,
+      "sellValue": 0,
+      "recipe": "[{\"item_id\": \"0000_0001\", \"amount\": 16}, {\"item_id\": \"0003_0002\", \"amount\": 2}, {\"item_id\": \"0003_0005\", \"amount\": 2}]",
+      "info": "{\"uses_count\": 14}"
+    },
+    {
+      "id": "0005_0004",
+      "name": "Tin Pickaxe",
+      "type": "0010",
+      "subtype": "0005",
+      "buyValue": 612,
+      "sellValue": 0,
+      "recipe": "[{\"item_id\": \"0000_0001\", \"amount\": 30}, {\"item_id\": \"0003_0002\", \"amount\": 5}, {\"item_id\": \"0003_0008\", \"amount\": 2}]",
+      "info": "{\"uses_count\": 16}"
+    },
+    {
+      "id": "0005_0005",
+      "name": "Steel Pickaxe",
+      "type": "0010",
+      "subtype": "0005",
+      "buyValue": 2944,
+      "sellValue": 0,
+      "recipe": "[{\"item_id\": \"0000_0001\", \"amount\": 40}, {\"item_id\": \"0003_0002\", \"amount\": 5}, {\"item_id\": \"0007_0006\", \"amount\": 1}]",
+      "info": "{\"uses_count\": 18}"
+    },
+    {
+      "id": "0006_0001",
+      "name": "Rusty Fishingrod",
+      "type": "0010",
+      "subtype": "0008",
+      "buyValue": 74,
+      "sellValue": 0,
+      "recipe": "[{\"item_id\": \"0000_0001\", \"amount\": 4}, {\"item_id\": \"0003_0003\", \"amount\": 1}]",
+      "info": "{\"uses_count\": 6}"
+    },
+    {
+      "id": "0006_0002",
+      "name": "Iron Fishingrod",
+      "type": "0010",
+      "subtype": "0008",
+      "buyValue": 152,
+      "sellValue": 0,
+      "recipe": "[{\"item_id\": \"0000_0001\", \"amount\": 8}, {\"item_id\": \"0003_0003\", \"amount\": 2}]",
+      "info": "{\"uses_count\": 12}"
+    },
+    {
+      "id": "0006_0003",
+      "name": "Steel Fishingrod",
+      "type": "0010",
+      "subtype": "0008",
+      "buyValue": 2944,
+      "sellValue": 0,
+      "recipe": "[{\"item_id\": \"0000_0002\", \"amount\": 7}, {\"item_id\": \"0007_0006\", \"amount\": 1}, {\"item_id\": \"0003_0002\", \"amount\": 2}]",
+      "info": "{\"uses_count\": 18}"
+    },
+    {
+      "id": "0007_0001",
+      "name": "Iron Bar",
+      "type": "0011",
+      "buyValue": 0,
+      "sellValue": 20,
+      "recipe": "[{\"item_id\": \"0003_0002\", \"amount\": 1}, {\"item_id\": \"0003_0003\", \"amount\": 2}]"
+    },
+    {
+      "id": "0007_0002",
+      "name": "Quartz",
+      "type": "0012",
+      "buyValue": 0,
+      "sellValue": 37,
+      "recipe": "[{\"item_id\": \"0003_0002\", \"amount\": 12}, {\"item_id\": \"0003_0004\", \"amount\": 3}]"
+    },
+    {
+      "id": "0007_0003",
+      "name": "Copper Bar",
+      "type": "0011",
+      "buyValue": 0,
+      "sellValue": 58,
+      "recipe": "[{\"item_id\": \"0003_0002\", \"amount\": 4}, {\"item_id\": \"0003_0005\", \"amount\": 3}]"
+    },
+    {
+      "id": "0007_0004",
+      "name": "Tin Bar",
+      "type": "0011",
+      "buyValue": 0,
+      "sellValue": 110,
+      "recipe": "[{\"item_id\": \"0003_0002\", \"amount\": 3}, {\"item_id\": \"0003_0008\", \"amount\": 5}]"
+    },
+    {
+      "id": "0007_0005",
+      "name": "Refined Amber",
+      "type": "0012",
+      "buyValue": 0,
+      "sellValue": 72,
+      "recipe": "[{\"item_id\": \"0003_0002\", \"amount\": 3}, {\"item_id\": \"0003_0007\", \"amount\": 3}]"
+    },
+    {
+      "id": "0007_0006",
+      "name": "Steel Bar",
+      "type": "0011",
+      "buyValue": 0,
+      "sellValue": 80,
+      "recipe": "[{\"item_id\": \"0007_0001\", \"amount\": 2}, {\"item_id\": \"0007_0007\", \"amount\": 1}]"
+    },
+    {
+      "id": "0007_0007",
+      "name": "Brown Coal",
+      "type": "0012",
+      "buyValue": 0,
+      "sellValue": 27,
+      "recipe": "[{\"item_id\": \"0003_0002\", \"amount\": 5}}]"
+    },
+    {
+      "id": "0007_0008",
+      "name": "Amethyst",
+      "type": "0012",
+      "buyValue": 0,
+      "sellValue": 43,
+      "recipe": "[{\"item_id\": \"0003_0002\", \"amount\": 2}, {\"item_id\": \"0003_0009\", \"amount\": 1}]"
+    }
+  ]
+}
