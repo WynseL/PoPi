@@ -4,7 +4,6 @@ import { printTime } from "../../data/models/Item";
 
 const CropRow = (props) => {
   const { crop } = props;
-  console.log(crop);
   let seed = crop.recipe[0];
   let info = seed.info;
   let totalYield = info.harvest_count * info.yield_per_harvest;

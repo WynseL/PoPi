@@ -13,9 +13,8 @@ import MenuIcon from "@material-ui/icons/Menu";
 
 import useWindowDimensions from "./subviews/ScreenSize";
 
+import HomeScreen from "./Home";
 import CropsScreen from "./Crops";
-import ToolsScreen from "./Tools";
-import OrdersScreen from "./Orders";
 
 const Navigation = () => {
   const { height, width } = useWindowDimensions();
@@ -41,19 +40,13 @@ const Navigation = () => {
         <Tabs onChange={setKeyListener} value={key}>
           <Tab label="Home" value="0" />
           <Tab label="Crops" value="1" />
-          <Tab label="Tools" value="2" />
-          <Tab label="Orders" value="3" />
         </Tabs>
       </AppBar>
-      <TabPanel value="0">asd</TabPanel>
+      <TabPanel value="0">
+        <HomeScreen />
+      </TabPanel>
       <TabPanel value="1">
         <CropsScreen height={height} width={width} />
-      </TabPanel>
-      <TabPanel value="2">
-        <ToolsScreen />
-      </TabPanel>
-      <TabPanel value="3">
-        <OrdersScreen />
       </TabPanel>
     </TabContext>
   );
