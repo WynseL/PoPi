@@ -9,6 +9,8 @@ class CropsRepository {
     this.gameVersion = itemsData.gameVersion;
     this.dateUpdated = itemsData.dateUpdated;
     this.typesData = typesData;
+
+    this.recursionCounter = 0;
   }
 
   getCropsData() {
@@ -25,6 +27,53 @@ class CropsRepository {
     });
 
     return objects;
+  }
+
+  getTreeData(item) {
+    this.recursionCounter++;
+    // console.log("-----------------");
+    console.log("COUNTER: " + this.recursionCounter);
+    // console.log(item);
+    // console.log("-----------------");
+    let objects = [];
+    if (Object.keys(item).length === 0) {
+      return objects;
+    }
+    console.log("1");
+    const type = item.type;
+    const subType = item.subType;
+
+    console.log("2");
+    item.recipe.forEach((recipe) => {
+      var addItem;
+      switch (type) {
+        case "0001":
+          let seedId = this.itemsData.find(
+            (item) => item.id === recipe.seed_id
+          );
+          var checkItem = setItemValue(seedId);
+          addItem = checkItem;
+          break;
+        default:
+          let itemId = this.itemsData.find(
+            (item) => item.id === recipe.item_id
+          );
+          checkItem = setItemValue(itemId);
+          if (checkItem.recipe.length !== 0) {
+            checkItem = this.getTreeData(checkItem);
+          }
+          addItem = { item: checkItem, amount: recipe.amount };
+      }
+      console.log("2.5");
+      console.log(addItem);
+      // FIX SOMETHING HERE!!!
+      objects.push(addItem);
+    });
+
+    console.log("3");
+    let newItem = { ...item, recipe: objects };
+    console.log("4");
+    return newItem;
   }
 }
 

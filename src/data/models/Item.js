@@ -12,8 +12,8 @@ export const itemValue = {
 
 export const setItemValue = (jsonItem) => {
   let item = itemValue;
-  const recipe = "recipe" in jsonItem ? JSON.parse(jsonItem.recipe) : [];
-  const info = "info" in jsonItem ? JSON.parse(jsonItem.info) : {};
+  const recipe = JSON.parse(jsonItem.recipe);
+  const info = JSON.parse(jsonItem.info);
   return {
     ...item,
     id: jsonItem.id,

@@ -7,21 +7,27 @@
       "name": "Wood",
       "type": "0004",
       "buyValue": 0,
-      "sellValue": 4
+      "sellValue": 4,
+      "recipe": "[]",
+      "info": "{}"
     },
     {
       "id": "0000_0002",
       "name": "Red Wood",
       "type": "0004",
       "buyValue": 0,
-      "sellValue": 27
+      "sellValue": 27,
+      "recipe": "[]",
+      "info": "{}"
     },
     {
       "id": "0000_0003",
       "name": "Hardwood",
       "type": "0004",
       "buyValue": 0,
-      "sellValue": 70
+      "sellValue": 70,
+      "recipe": "[]",
+      "info": "{}"
     },
     {
       "id": "0001_0001",
@@ -29,7 +35,7 @@
       "type": "0001",
       "subtype": "0003",
       "buyValue": 0,
-      "sellValue": 0,
+      "sellValue": 10,
       "recipe": "[{\"seed_id\": \"0002_0001\"}]",
       "info": "{\"energy\": 5}"
     },
@@ -59,7 +65,7 @@
       "type": "0001",
       "subtype": "0003",
       "buyValue": 0,
-      "sellValue": 0,
+      "sellValue": 30,
       "recipe": "[{\"seed_id\": \"0002_0004\"}]",
       "info": "{\"energy\": 5}"
     },
@@ -79,7 +85,7 @@
       "type": "0001",
       "subtype": "0003",
       "buyValue": 0,
-      "sellValue": 0,
+      "sellValue": 25,
       "recipe": "[{\"seed_id\": \"0002_0006\"}]",
       "info": "{\"energy\": 5}"
     },
@@ -148,6 +154,7 @@
       "type": "0002",
       "buyValue": 10,
       "sellValue": 0,
+      "recipe": "[]",
       "info": "{\"harvest_count\": 1, \"grow_time_initial\": 30, \"grow_time_after_harvest\": 0, \"yield_per_harvest\": 1}"
     },
     {
@@ -157,6 +164,7 @@
       "description": "Seeds that grow into 3 wheat plants. Seeds are for sale in Frances' shop.",
       "buyValue": 16,
       "sellValue": 0,
+      "recipe": "[]",
       "info": "{\"harvest_count\": 1, \"grow_time_initial\": 180, \"grow_time_after_harvest\": 0, \"yield_per_harvest\": 3}"
     },
     {
@@ -165,6 +173,7 @@
       "type": "0002",
       "buyValue": 21,
       "sellValue": 0,
+      "recipe": "[]",
       "info": "{\"harvest_count\": 1, \"grow_time_initial\": 900, \"grow_time_after_harvest\": 0, \"yield_per_harvest\": 1}"
     },
     {
@@ -173,6 +182,7 @@
       "type": "0002",
       "buyValue": 350,
       "sellValue": 0,
+      "recipe": "[]",
       "info": "{\"harvest_count\": 5, \"grow_time_initial\": 21600, \"grow_time_after_harvest\": 14400, \"yield_per_harvest\": 3}"
     },
     {
@@ -181,6 +191,7 @@
       "type": "0002",
       "buyValue": 41,
       "sellValue": 0,
+      "recipe": "[]",
       "info": "{\"harvest_count\": 3, \"grow_time_initial\": 10800, \"grow_time_after_harvest\": 7200, \"yield_per_harvest\": 1}"
     },
     {
@@ -189,6 +200,7 @@
       "type": "0002",
       "buyValue": 40,
       "sellValue": 0,
+      "recipe": "[]",
       "info": "{\"harvest_count\": 1, \"grow_time_initial\": 2700, \"grow_time_after_harvest\": 0, \"yield_per_harvest\": 1}"
     },
     {
@@ -197,6 +209,7 @@
       "type": "0002",
       "buyValue": 55,
       "sellValue": 0,
+      "recipe": "[]",
       "info": "{\"harvest_count\": 2, \"grow_time_initial\": 3600, \"grow_time_after_harvest\": 900, \"yield_per_harvest\": 4}"
     },
     {
@@ -205,6 +218,7 @@
       "type": "0002",
       "buyValue": 60,
       "sellValue": 0,
+      "recipe": "[]",
       "info": "{\"harvest_count\": 1, \"grow_time_initial\": 1200, \"grow_time_after_harvest\": 0, \"yield_per_harvest\": 2}"
     },
     {
@@ -213,6 +227,7 @@
       "type": "0002",
       "buyValue": 80,
       "sellValue": 0,
+      "recipe": "[]",
       "info": "{\"harvest_count\": 1, \"grow_time_initial\": 1200, \"grow_time_after_harvest\": 0, \"yield_per_harvest\": 3}"
     },
     {
@@ -221,6 +236,7 @@
       "type": "0002",
       "buyValue": 58,
       "sellValue": 0,
+      "recipe": "[]",
       "info": "{\"harvest_count\": 1, \"grow_time_initial\": 1200, \"grow_time_after_harvest\": 0, \"yield_per_harvest\": 9}"
     },
     {
@@ -229,6 +245,7 @@
       "type": "0002",
       "buyValue": 69,
       "sellValue": 0,
+      "recipe": "[]",
       "info": "{\"harvest_count\": 1, \"grow_time_initial\": 1800, \"grow_time_after_harvest\": 0, \"yield_per_harvest\": 1}"
     },
     {
@@ -237,6 +254,7 @@
       "type": "0002",
       "buyValue": 135,
       "sellValue": 0,
+      "recipe": "[]",
       "info": "{\"harvest_count\": 3, \"grow_time_initial\": 10800, \"grow_time_after_harvest\": 7200, \"yield_per_harvest\": 3}"
     },
     {
@@ -245,14 +263,18 @@
       "type": "0005",
       "subtype": "0007",
       "buyValue": 0,
-      "sellValue": 2
+      "sellValue": 2,
+      "recipe": "[]",
+      "info": "{}"
     },
     {
       "id": "0003_0002",
       "name": "Coal",
       "type": "0005",
       "buyValue": 0,
-      "sellValue": 5
+      "sellValue": 5,
+      "recipe": "[]",
+      "info": "{}"
     },
     {
       "id": "0003_0003",
@@ -260,7 +282,9 @@
       "type": "0005",
       "subtype": "0006",
       "buyValue": 0,
-      "sellValue": 7
+      "sellValue": 7,
+      "recipe": "[]",
+      "info": "{}"
     },
     {
       "id": "0003_0004",
@@ -268,7 +292,9 @@
       "type": "0005",
       "subtype": "0006",
       "buyValue": 0,
-      "sellValue": 8
+      "sellValue": 8,
+      "recipe": "[]",
+      "info": "{}"
     },
     {
       "id": "0003_0005",
@@ -276,7 +302,9 @@
       "type": "0005",
       "subtype": "0006",
       "buyValue": 0,
-      "sellValue": 11
+      "sellValue": 11,
+      "recipe": "[]",
+      "info": "{}"
     },
     {
       "id": "0003_0006",
@@ -284,7 +312,9 @@
       "type": "0005",
       "subtype": "0007",
       "buyValue": 0,
-      "sellValue": 10
+      "sellValue": 10,
+      "recipe": "[]",
+      "info": "{}"
     },
     {
       "id": "0003_0007",
@@ -292,7 +322,9 @@
       "type": "0005",
       "subtype": "0006",
       "buyValue": 0,
-      "sellValue": 17
+      "sellValue": 17,
+      "recipe": "[]",
+      "info": "{}"
     },
     {
       "id": "0003_0008",
@@ -300,7 +332,9 @@
       "type": "0005",
       "subtype": "0006",
       "buyValue": 0,
-      "sellValue": 17
+      "sellValue": 17,
+      "recipe": "[]",
+      "info": "{}"
     },
     {
       "id": "0003_0009",
@@ -308,7 +342,9 @@
       "type": "0005",
       "subtype": "0006",
       "buyValue": 0,
-      "sellValue": 28
+      "sellValue": 28,
+      "recipe": "[]",
+      "info": "{}"
     },
     {
       "id": "0003_0010",
@@ -316,7 +352,9 @@
       "type": "0005",
       "subtype": "0006",
       "buyValue": 0,
-      "sellValue": 43
+      "sellValue": 43,
+      "recipe": "[]",
+      "info": "{}"
     },
     {
       "id": "0003_0011",
@@ -324,7 +362,9 @@
       "type": "0005",
       "subtype": "0007",
       "buyValue": 0,
-      "sellValue": 23
+      "sellValue": 23,
+      "recipe": "[]",
+      "info": "{}"
     },
     {
       "id": "0003_0012",
@@ -332,7 +372,9 @@
       "type": "0005",
       "subtype": "0006",
       "buyValue": 0,
-      "sellValue": 66
+      "sellValue": 66,
+      "recipe": "[]",
+      "info": "{}"
     },
     {
       "id": "0003_0013",
@@ -340,7 +382,9 @@
       "type": "0005",
       "subtype": "0006",
       "buyValue": 0,
-      "sellValue": 66
+      "sellValue": 66,
+      "recipe": "[]",
+      "info": "{}"
     },
     {
       "id": "0003_0014",
@@ -348,7 +392,9 @@
       "type": "0005",
       "subtype": "0006",
       "buyValue": 0,
-      "sellValue": 100
+      "sellValue": 100,
+      "recipe": "[]",
+      "info": "{}"
     },
     {
       "id": "0003_0015",
@@ -356,7 +402,9 @@
       "type": "0005",
       "subtype": "0006",
       "buyValue": 0,
-      "sellValue": 100
+      "sellValue": 100,
+      "recipe": "[]",
+      "info": "{}"
     },
     {
       "id": "0003_0016",
@@ -364,7 +412,9 @@
       "type": "0005",
       "subtype": "0007",
       "buyValue": 0,
-      "sellValue": 47
+      "sellValue": 47,
+      "recipe": "[]",
+      "info": "{}"
     },
     {
       "id": "0003_0017",
@@ -372,7 +422,9 @@
       "type": "0005",
       "subtype": "0006",
       "buyValue": 0,
-      "sellValue": 153
+      "sellValue": 153,
+      "recipe": "[]",
+      "info": "{}"
     },
     {
       "id": "0003_0018",
@@ -380,7 +432,9 @@
       "type": "0005",
       "subtype": "0006",
       "buyValue": 0,
-      "sellValue": 0
+      "sellValue": 0,
+      "recipe": "[]",
+      "info": "{}"
     },
     {
       "id": "0004_0001",
@@ -518,7 +572,8 @@
       "type": "0011",
       "buyValue": 0,
       "sellValue": 20,
-      "recipe": "[{\"item_id\": \"0003_0002\", \"amount\": 1}, {\"item_id\": \"0003_0003\", \"amount\": 2}]"
+      "recipe": "[{\"item_id\": \"0003_0002\", \"amount\": 1}, {\"item_id\": \"0003_0003\", \"amount\": 2}]",
+      "info": "{}"
     },
     {
       "id": "0007_0002",
@@ -526,7 +581,8 @@
       "type": "0012",
       "buyValue": 0,
       "sellValue": 37,
-      "recipe": "[{\"item_id\": \"0003_0002\", \"amount\": 12}, {\"item_id\": \"0003_0004\", \"amount\": 3}]"
+      "recipe": "[{\"item_id\": \"0003_0002\", \"amount\": 12}, {\"item_id\": \"0003_0004\", \"amount\": 3}]",
+      "info": "{}"
     },
     {
       "id": "0007_0003",
@@ -534,7 +590,8 @@
       "type": "0011",
       "buyValue": 0,
       "sellValue": 58,
-      "recipe": "[{\"item_id\": \"0003_0002\", \"amount\": 4}, {\"item_id\": \"0003_0005\", \"amount\": 3}]"
+      "recipe": "[{\"item_id\": \"0003_0002\", \"amount\": 4}, {\"item_id\": \"0003_0005\", \"amount\": 3}]",
+      "info": "{}"
     },
     {
       "id": "0007_0004",
@@ -542,7 +599,8 @@
       "type": "0011",
       "buyValue": 0,
       "sellValue": 110,
-      "recipe": "[{\"item_id\": \"0003_0002\", \"amount\": 3}, {\"item_id\": \"0003_0008\", \"amount\": 5}]"
+      "recipe": "[{\"item_id\": \"0003_0002\", \"amount\": 3}, {\"item_id\": \"0003_0008\", \"amount\": 5}]",
+      "info": "{}"
     },
     {
       "id": "0007_0005",
@@ -550,7 +608,8 @@
       "type": "0012",
       "buyValue": 0,
       "sellValue": 72,
-      "recipe": "[{\"item_id\": \"0003_0002\", \"amount\": 3}, {\"item_id\": \"0003_0007\", \"amount\": 3}]"
+      "recipe": "[{\"item_id\": \"0003_0002\", \"amount\": 3}, {\"item_id\": \"0003_0007\", \"amount\": 3}]",
+      "info": "{}"
     },
     {
       "id": "0007_0006",
@@ -558,7 +617,8 @@
       "type": "0011",
       "buyValue": 0,
       "sellValue": 80,
-      "recipe": "[{\"item_id\": \"0007_0001\", \"amount\": 2}, {\"item_id\": \"0007_0007\", \"amount\": 1}]"
+      "recipe": "[{\"item_id\": \"0007_0001\", \"amount\": 2}, {\"item_id\": \"0007_0007\", \"amount\": 1}]",
+      "info": "{}"
     },
     {
       "id": "0007_0007",
@@ -566,7 +626,8 @@
       "type": "0012",
       "buyValue": 0,
       "sellValue": 27,
-      "recipe": "[{\"item_id\": \"0003_0002\", \"amount\": 5}}]"
+      "recipe": "[{\"item_id\": \"0003_0002\", \"amount\": 5}}]",
+      "info": "{}"
     },
     {
       "id": "0007_0008",
@@ -574,7 +635,8 @@
       "type": "0012",
       "buyValue": 0,
       "sellValue": 43,
-      "recipe": "[{\"item_id\": \"0003_0002\", \"amount\": 2}, {\"item_id\": \"0003_0009\", \"amount\": 1}]"
+      "recipe": "[{\"item_id\": \"0003_0002\", \"amount\": 2}, {\"item_id\": \"0003_0009\", \"amount\": 1}]",
+      "info": "{}"
     }
   ]
 }
