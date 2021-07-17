@@ -1,47 +1,70 @@
-import React from "react";
-import CropsRepo from "../data/repositories/CropsRepository";
-import { Card, CardContent, TextField, MenuItem } from "@material-ui/core";
+import React, { useState } from "react";
+import CropsRepo from "../data/repositories/ItemRepository";
+import {
+  makeStyles,
+  Card,
+  CardContent,
+  TextField,
+  MenuItem
+} from "@material-ui/core";
 
-class Orders extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-      itemId: "",
-      itemName: "",
-      amount: 0,
-      return: 0
-    };
-  }
+const Orders = () => {
+  const useStyles = makeStyles((theme) => ({
+    root: {
+      "& .MuiTextField-root": {
+        margin: theme.spacing(1),
+        display: "flex"
+      }
+    }
+  }));
+  const classes = useStyles();
 
-  setItem = (event) => {
-    let newValue = event.target.value;
-    this.setState({ itemId: newValue.id, itemName: newValue.name });
+  const [itemName, setItemName] = useState("");
+  const [amount, setAmount] = useState(0.0);
+  const [returnValue, setReturnValue] = useState(0.0);
+
+  const setItemListener = (event) => {
+    setItemName(event.target.value);
   };
 
-  render() {
-    let repo = new CropsRepo();
-    let data = repo.getData();
-    return (
-      <Card variant="outlined">
-        <CardContent>
-          <TextField
-            select
-            value={this.state.itemName}
-            onChange={this.setItem}
-            label="Item"
-          >
-            {data.map((item) => (
-              <MenuItem key={item.id} value={item}>
-                {item.name}
-              </MenuItem>
-            ))}
-          </TextField>
-          <TextField label="Amount" />
-          <TextField label="Return" />
-        </CardContent>
-      </Card>
-    );
-  }
-}
+  const setItemAmountListener = (event) => {
+    setAmount(event.target.value);
+  };
+
+  const setItemReturnValueListener = (event) => {
+    setReturnValue(event.target.value);
+  };
+
+  let repo = new CropsRepo();
+  let data = repo.getData();
+  return (
+    <Card variant="outlined" className={classes.root}>
+      <CardContent>
+        <TextField
+          select
+          value={itemName}
+          onChange={setItemListener}
+          label="Item"
+        >
+          {data.map((currentItem) => (
+            <MenuItem key={currentItem.id} value={currentItem.id}>
+              {currentItem.name}
+            </MenuItem>
+          ))}
+        </TextField>
+        <TextField
+          label="Amount"
+          value={amount}
+          onChange={setItemAmountListener}
+        />
+        <TextField
+          label="Return"
+          value={returnValue}
+          onChange={setItemReturnValueListener}
+        />
+      </CardContent>
+    </Card>
+  );
+};
 
 export default Orders;

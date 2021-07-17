@@ -1,5 +1,5 @@
 import React from "react";
-import CropsRepo from "../data/repositories/CropsRepository";
+import CropsRepo from "../data/repositories/ItemRepository";
 import CropRow from "./subviews/CropRow";
 import {
   makeStyles,
@@ -28,13 +28,12 @@ const Crops = (props) => {
       }
     }
   });
-
   const classes = useStyles();
 
   let repo = new CropsRepo();
-  let data = repo.getData();
-  let version = repo.getGameVersion();
-  let date = repo.getDateUpdated();
+  let data = repo.getCropsData();
+  let version = repo.gameVersion;
+  let date = repo.dateUpdated;
   return (
     <Paper className={classes.root}>
       <TableContainer className={classes.container}>

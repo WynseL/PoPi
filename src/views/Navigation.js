@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import {
+  Container,
   AppBar,
   Toolbar,
   IconButton,
@@ -24,7 +25,7 @@ const Navigation = () => {
   };
 
   return (
-    <TabContext value={key} width={width}>
+    <TabContext value={key} height={height} width={width}>
       <AppBar position="static">
         <Toolbar>
           <IconButton
