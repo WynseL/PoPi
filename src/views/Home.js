@@ -45,7 +45,9 @@ const Home = () => {
           />
         )}
       />
-      <ItemTree item={itemsRepo.getTreeData(item)} />
+      {Object.keys(item).length !== 0 ? (
+        <ItemTree item={itemsRepo.getTreeData(item)} />
+      ) : null}
     </div>
   );
 };

@@ -1,4 +1,4 @@
-import { itemValue, setItemValue } from "../models/Item";
+import { itemValue, setItemValue, convertToTree } from "../models/Item";
 
 const itemsData = require("../items.json");
 const typesData = require("../types.json");
@@ -29,21 +29,18 @@ class CropsRepository {
     return objects;
   }
 
-  getTreeData(item) {
-    this.recursionCounter++;
-    // console.log("-----------------");
-    console.log("COUNTER: " + this.recursionCounter);
-    // console.log(item);
-    // console.log("-----------------");
+  normalizeData(item) {
     let objects = [];
     if (Object.keys(item).length === 0) {
       return objects;
     }
-    console.log("1");
-    const type = item.type;
-    const subType = item.subType;
 
-    console.log("2");
+    const type = this.typesData.find((type) => type.id === item.type).type;
+    const subtype =
+      item.subtype !== undefined
+        ? this.typesData.find((type) => type.id === item.subtype).type
+        : undefined;
+
     item.recipe.forEach((recipe) => {
       var addItem;
       switch (type) {
@@ -52,7 +49,7 @@ class CropsRepository {
             (item) => item.id === recipe.seed_id
           );
           var checkItem = setItemValue(seedId);
-          addItem = checkItem;
+          addItem = { item: checkItem, amount: 1 };
           break;
         default:
           let itemId = this.itemsData.find(
@@ -60,20 +57,21 @@ class CropsRepository {
           );
           checkItem = setItemValue(itemId);
           if (checkItem.recipe.length !== 0) {
-            checkItem = this.getTreeData(checkItem);
+            checkItem = this.normalizeData(checkItem);
           }
           addItem = { item: checkItem, amount: recipe.amount };
       }
-      console.log("2.5");
-      console.log(addItem);
-      // FIX SOMETHING HERE!!!
+
       objects.push(addItem);
     });
 
-    console.log("3");
-    let newItem = { ...item, recipe: objects };
-    console.log("4");
+    let newItem = { ...item, type, subtype, recipe: objects };
     return newItem;
+  }
+
+  getTreeData(item) {
+    let normalizedData = this.normalizeData(item);
+    return convertToTree(normalizedData);
   }
 }
 

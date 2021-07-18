@@ -626,7 +626,7 @@
       "type": "0012",
       "buyValue": 0,
       "sellValue": 27,
-      "recipe": "[{\"item_id\": \"0003_0002\", \"amount\": 5}}]",
+      "recipe": "[{\"item_id\": \"0003_0002\", \"amount\": 5}]",
       "info": "{}"
     },
     {

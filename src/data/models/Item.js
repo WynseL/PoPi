@@ -39,3 +39,13 @@ export const printTime = (time) => {
   const secDisplay = sec > 0 ? sec + "s" : "";
   return hrDisplay + minDisplay + secDisplay;
 };
+
+export const convertToTree = (item, amount) => {
+  let children = [];
+  item.recipe.forEach((recipe) => {
+    let newItem = convertToTree(recipe.item, recipe.amount);
+    children.push(newItem);
+  });
+
+  return { name: item.name, attributes: { ...item, amount: amount }, children };
+};
