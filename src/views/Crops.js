@@ -13,16 +13,16 @@ import {
 } from "@material-ui/core";
 
 const Crops = (props) => {
-  const { height, width } = props;
   const useStyles = makeStyles({
     root: {
-      width: "100%"
+      width: "100%",
+      maxWidth: "100"
     },
     container: {
-      maxHeight: height
+      maxHeight: "100"
     },
     table: {
-      minWidth: width,
+      minWidth: "100",
       "& .MuiTableCell-root": {
         borderLeft: "1px solid rgba(224, 224, 224, 1)"
       }

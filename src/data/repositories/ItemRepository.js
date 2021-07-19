@@ -20,7 +20,7 @@ class CropsRepository {
     crops.forEach((item) => {
       let value = setItemValue(item);
       let seedItem = this.itemsData.find(
-        (item) => item.id === value.recipe[0].seed_id
+        (item) => item.id === value.recipe[0].item_id
       );
       let newValue = { ...value, recipe: [setItemValue(seedItem)] };
       objects.push(newValue);

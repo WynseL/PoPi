@@ -3,11 +3,13 @@ import React, { useState } from "react";
 import ItemsRepo from "../data/repositories/ItemRepository";
 import { setItemValue } from "../data/models/Item";
 import ItemTree from "../views/subviews/ItemTree";
+import ItemInformation from "../views/subviews/ItemInformation";
 
-import TextField from "@material-ui/core/TextField";
 import Autocomplete from "@material-ui/lab/Autocomplete";
+import { TextField } from "@material-ui/core";
 
-const Home = () => {
+const Home = (props) => {
+  const { height, width } = props;
   const [inputValue, setInputValue] = useState("");
   const [item, setItem] = useState({});
 
@@ -20,7 +22,9 @@ const Home = () => {
 
   const setItemListener = (event, value) => {
     if (value !== null) {
-      setItem(setItemValue(value));
+      const item = setItemValue(value);
+      let normalized = itemsRepo.getTreeData(item);
+      setItem(normalized);
     }
   };
 
@@ -46,7 +50,10 @@ const Home = () => {
         )}
       />
       {Object.keys(item).length !== 0 ? (
-        <ItemTree item={itemsRepo.getTreeData(item)} />
+        <div>
+          <ItemTree height={height} item={item} />
+          <ItemInformation item={item} />
+        </div>
       ) : null}
     </div>
   );

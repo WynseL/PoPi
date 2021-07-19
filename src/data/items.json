@@ -1,6 +1,6 @@
 {
-  "gameVersion": "0.2.4",
-  "dateUpdated": "16/07/2021",
+  "gameVersion": "0.2.3",
+  "dateUpdated": "19/07/2021",
   "items": [
     {
       "id": "0000_0001",
@@ -9,7 +9,8 @@
       "buyValue": 0,
       "sellValue": 4,
       "recipe": "[]",
-      "info": "{}"
+      "info": "{}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/d/df/Wood.png"
     },
     {
       "id": "0000_0002",
@@ -18,7 +19,8 @@
       "buyValue": 0,
       "sellValue": 27,
       "recipe": "[]",
-      "info": "{}"
+      "info": "{}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/0/02/Red_Wood.png"
     },
     {
       "id": "0000_0003",
@@ -27,7 +29,8 @@
       "buyValue": 0,
       "sellValue": 70,
       "recipe": "[]",
-      "info": "{}"
+      "info": "{}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/e/ed/Hardwood.png"
     },
     {
       "id": "0001_0001",
@@ -36,8 +39,9 @@
       "subtype": "0003",
       "buyValue": 0,
       "sellValue": 10,
-      "recipe": "[{\"seed_id\": \"0002_0001\"}]",
-      "info": "{\"energy\": 5}"
+      "recipe": "[{\"item_id\": \"0002_0001\", \"amount\": 1}]",
+      "info": "{\"energy\": 5}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/c/c3/Carrot.png"
     },
     {
       "id": "0001_0002",
@@ -46,8 +50,9 @@
       "subtype": "0003",
       "buyValue": 0,
       "sellValue": 7,
-      "recipe": "[{\"seed_id\": \"0002_0002\"}]",
-      "info": "{\"energy\": 5}"
+      "recipe": "[{\"item_id\": \"0002_0002\", \"amount\": 1}]",
+      "info": "{\"energy\": 5}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/e/e2/Wheat.png"
     },
     {
       "id": "0001_0003",
@@ -56,8 +61,9 @@
       "subtype": "0003",
       "buyValue": 0,
       "sellValue": 24,
-      "recipe": "[{\"seed_id\": \"0002_0003\"}]",
-      "info": "{\"energy\": 10}"
+      "recipe": "[{\"item_id\": \"0002_0003\", \"amount\": 1}]",
+      "info": "{\"energy\": 10}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/c/cc/Cabbage.png"
     },
     {
       "id": "0001_0004",
@@ -66,8 +72,9 @@
       "subtype": "0003",
       "buyValue": 0,
       "sellValue": 30,
-      "recipe": "[{\"seed_id\": \"0002_0004\"}]",
-      "info": "{\"energy\": 5}"
+      "recipe": "[{\"item_id\": \"0002_0004\", \"amount\": 1}]",
+      "info": "{\"energy\": 5}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/7/7d/Apple.png"
     },
     {
       "id": "0001_0005",
@@ -76,18 +83,20 @@
       "subtype": "0003",
       "buyValue": 0,
       "sellValue": 11,
-      "recipe": "[{\"seed_id\": \"0002_0005\"}]",
-      "info": "{\"energy\": 5}"
+      "recipe": "[{\"item_id\": \"0002_0005\", \"amount\": 1}]",
+      "info": "{\"energy\": 5}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/9/9d/Tomato.png"
     },
     {
       "id": "0001_0006",
-      "name": "Beet",
+      "name": "Beetroot",
       "type": "0001",
       "subtype": "0003",
       "buyValue": 0,
       "sellValue": 25,
-      "recipe": "[{\"seed_id\": \"0002_0006\"}]",
-      "info": "{\"energy\": 5}"
+      "recipe": "[{\"item_id\": \"0002_0006\", \"amount\": 1}]",
+      "info": "{\"energy\": 5}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/5/56/Beetroot.png"
     },
     {
       "id": "0001_0007",
@@ -96,8 +105,9 @@
       "subtype": "0003",
       "buyValue": 0,
       "sellValue": 11,
-      "recipe": "[{\"seed_id\": \"0002_0007\"}]",
-      "info": "{\"energy\": 4}"
+      "recipe": "[{\"item_id\": \"0002_0007\", \"amount\": 1}]",
+      "info": "{\"energy\": 4}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/f/f8/Corn.png"
     },
     {
       "id": "0001_0008",
@@ -106,8 +116,9 @@
       "subtype": "0003",
       "buyValue": 0,
       "sellValue": 38,
-      "recipe": "[{\"seed_id\": \"0002_0008\"}]",
-      "info": "{\"energy\": 15}"
+      "recipe": "[{\"item_id\": \"0002_0008\", \"amount\": 1}]",
+      "info": "{\"energy\": 15}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/5/51/Onion.png"
     },
     {
       "id": "0001_0009",
@@ -115,8 +126,9 @@
       "type": "0001",
       "buyValue": 0,
       "sellValue": 32,
-      "recipe": "[{\"seed_id\": \"0002_0009\"}]",
-      "info": "{\"energy\": 0}"
+      "recipe": "[{\"item_id\": \"0002_0009\", \"amount\": 1}]",
+      "info": "{\"energy\": 0}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/8/81/Sunflower.png"
     },
     {
       "id": "0001_0010",
@@ -125,8 +137,9 @@
       "subtype": "0003",
       "buyValue": 0,
       "sellValue": 8,
-      "recipe": "[{\"seed_id\": \"0002_0010\"}]",
-      "info": "{\"energy\": 3}"
+      "recipe": "[{\"item_id\": \"0002_0010\", \"amount\": 1}]",
+      "info": "{\"energy\": 3}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/c/c2/Potato.png"
     },
     {
       "id": "0001_0011",
@@ -135,8 +148,9 @@
       "subtype": "0003",
       "buyValue": 0,
       "sellValue": 90,
-      "recipe": "[{\"seed_id\": \"0002_0011\"}]",
-      "info": "{\"energy\": 20}"
+      "recipe": "[{\"item_id\": \"0002_0011\", \"amount\": 1}]",
+      "info": "{\"energy\": 20}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/c/cc/Garlic.png"
     },
     {
       "id": "0001_0012",
@@ -145,8 +159,9 @@
       "subtype": "0003",
       "buyValue": 0,
       "sellValue": 31,
-      "recipe": "[{\"seed_id\": \"0002_0012\"}]",
-      "info": "{\"energy\": 5}"
+      "recipe": "[{\"item_id\": \"0002_0012\", \"amount\": 1}]",
+      "info": "{\"energy\": 5}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/b/bb/Chilli_Pepper.png"
     },
     {
       "id": "0002_0001",
@@ -155,7 +170,8 @@
       "buyValue": 10,
       "sellValue": 0,
       "recipe": "[]",
-      "info": "{\"harvest_count\": 1, \"grow_time_initial\": 30, \"grow_time_after_harvest\": 0, \"yield_per_harvest\": 1}"
+      "info": "{\"harvest_count\": 1, \"grow_time_initial\": 30, \"grow_time_after_harvest\": 0, \"yield_per_harvest\": 1}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/1/1f/Carrot_Seeds.png"
     },
     {
       "id": "0002_0002",
@@ -165,7 +181,8 @@
       "buyValue": 16,
       "sellValue": 0,
       "recipe": "[]",
-      "info": "{\"harvest_count\": 1, \"grow_time_initial\": 180, \"grow_time_after_harvest\": 0, \"yield_per_harvest\": 3}"
+      "info": "{\"harvest_count\": 1, \"grow_time_initial\": 180, \"grow_time_after_harvest\": 0, \"yield_per_harvest\": 3}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/2/2b/Wheat_Seeds.png"
     },
     {
       "id": "0002_0003",
@@ -174,7 +191,8 @@
       "buyValue": 21,
       "sellValue": 0,
       "recipe": "[]",
-      "info": "{\"harvest_count\": 1, \"grow_time_initial\": 900, \"grow_time_after_harvest\": 0, \"yield_per_harvest\": 1}"
+      "info": "{\"harvest_count\": 1, \"grow_time_initial\": 900, \"grow_time_after_harvest\": 0, \"yield_per_harvest\": 1}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/e/e2/Cabbage_Seeds.png"
     },
     {
       "id": "0002_0004",
@@ -183,7 +201,8 @@
       "buyValue": 350,
       "sellValue": 0,
       "recipe": "[]",
-      "info": "{\"harvest_count\": 5, \"grow_time_initial\": 21600, \"grow_time_after_harvest\": 14400, \"yield_per_harvest\": 3}"
+      "info": "{\"harvest_count\": 5, \"grow_time_initial\": 21600, \"grow_time_after_harvest\": 14400, \"yield_per_harvest\": 3}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/6/68/Apple_Sapling.png"
     },
     {
       "id": "0002_0005",
@@ -192,16 +211,18 @@
       "buyValue": 41,
       "sellValue": 0,
       "recipe": "[]",
-      "info": "{\"harvest_count\": 3, \"grow_time_initial\": 10800, \"grow_time_after_harvest\": 7200, \"yield_per_harvest\": 1}"
+      "info": "{\"harvest_count\": 3, \"grow_time_initial\": 10800, \"grow_time_after_harvest\": 7200, \"yield_per_harvest\": 1}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/e/e3/Tomato_Seeds.png"
     },
     {
       "id": "0002_0006",
-      "name": "Beet Seed",
+      "name": "Beetroot Seed",
       "type": "0002",
       "buyValue": 40,
       "sellValue": 0,
       "recipe": "[]",
-      "info": "{\"harvest_count\": 1, \"grow_time_initial\": 2700, \"grow_time_after_harvest\": 0, \"yield_per_harvest\": 1}"
+      "info": "{\"harvest_count\": 1, \"grow_time_initial\": 2700, \"grow_time_after_harvest\": 0, \"yield_per_harvest\": 1}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/0/04/Beetroot_Seeds.png"
     },
     {
       "id": "0002_0007",
@@ -210,7 +231,8 @@
       "buyValue": 55,
       "sellValue": 0,
       "recipe": "[]",
-      "info": "{\"harvest_count\": 2, \"grow_time_initial\": 3600, \"grow_time_after_harvest\": 900, \"yield_per_harvest\": 4}"
+      "info": "{\"harvest_count\": 2, \"grow_time_initial\": 3600, \"grow_time_after_harvest\": 900, \"yield_per_harvest\": 4}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/d/d4/Corn_Kernels.png"
     },
     {
       "id": "0002_0008",
@@ -219,7 +241,8 @@
       "buyValue": 60,
       "sellValue": 0,
       "recipe": "[]",
-      "info": "{\"harvest_count\": 1, \"grow_time_initial\": 1200, \"grow_time_after_harvest\": 0, \"yield_per_harvest\": 2}"
+      "info": "{\"harvest_count\": 1, \"grow_time_initial\": 1200, \"grow_time_after_harvest\": 0, \"yield_per_harvest\": 2}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/b/b0/Onion_Seeds.png"
     },
     {
       "id": "0002_0009",
@@ -228,7 +251,8 @@
       "buyValue": 80,
       "sellValue": 0,
       "recipe": "[]",
-      "info": "{\"harvest_count\": 1, \"grow_time_initial\": 1200, \"grow_time_after_harvest\": 0, \"yield_per_harvest\": 3}"
+      "info": "{\"harvest_count\": 1, \"grow_time_initial\": 1200, \"grow_time_after_harvest\": 0, \"yield_per_harvest\": 3}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/1/1f/Sunflower_Seeds.png"
     },
     {
       "id": "0002_0010",
@@ -237,7 +261,8 @@
       "buyValue": 58,
       "sellValue": 0,
       "recipe": "[]",
-      "info": "{\"harvest_count\": 1, \"grow_time_initial\": 1200, \"grow_time_after_harvest\": 0, \"yield_per_harvest\": 9}"
+      "info": "{\"harvest_count\": 1, \"grow_time_initial\": 1200, \"grow_time_after_harvest\": 0, \"yield_per_harvest\": 9}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/4/44/Potato_Seeds.png"
     },
     {
       "id": "0002_0011",
@@ -246,7 +271,8 @@
       "buyValue": 69,
       "sellValue": 0,
       "recipe": "[]",
-      "info": "{\"harvest_count\": 1, \"grow_time_initial\": 1800, \"grow_time_after_harvest\": 0, \"yield_per_harvest\": 1}"
+      "info": "{\"harvest_count\": 1, \"grow_time_initial\": 1800, \"grow_time_after_harvest\": 0, \"yield_per_harvest\": 1}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/d/d5/Garlic_Seeds.png"
     },
     {
       "id": "0002_0012",
@@ -255,7 +281,8 @@
       "buyValue": 135,
       "sellValue": 0,
       "recipe": "[]",
-      "info": "{\"harvest_count\": 3, \"grow_time_initial\": 10800, \"grow_time_after_harvest\": 7200, \"yield_per_harvest\": 3}"
+      "info": "{\"harvest_count\": 3, \"grow_time_initial\": 10800, \"grow_time_after_harvest\": 7200, \"yield_per_harvest\": 3}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/f/f6/Chilli_Pepper_Seeds.png"
     },
     {
       "id": "0003_0001",
@@ -265,7 +292,8 @@
       "buyValue": 0,
       "sellValue": 2,
       "recipe": "[]",
-      "info": "{}"
+      "info": "{}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/d/d4/Stone.png"
     },
     {
       "id": "0003_0002",
@@ -274,7 +302,8 @@
       "buyValue": 0,
       "sellValue": 5,
       "recipe": "[]",
-      "info": "{}"
+      "info": "{}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/a/a7/Coal.png"
     },
     {
       "id": "0003_0003",
@@ -284,7 +313,8 @@
       "buyValue": 0,
       "sellValue": 7,
       "recipe": "[]",
-      "info": "{}"
+      "info": "{}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/8/87/Iron_Ore.png"
     },
     {
       "id": "0003_0004",
@@ -294,7 +324,8 @@
       "buyValue": 0,
       "sellValue": 8,
       "recipe": "[]",
-      "info": "{}"
+      "info": "{}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/a/a5/Quartz_Ore.png"
     },
     {
       "id": "0003_0005",
@@ -304,7 +335,8 @@
       "buyValue": 0,
       "sellValue": 11,
       "recipe": "[]",
-      "info": "{}"
+      "info": "{}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/7/78/Copper_Ore.png"
     },
     {
       "id": "0003_0006",
@@ -314,7 +346,8 @@
       "buyValue": 0,
       "sellValue": 10,
       "recipe": "[]",
-      "info": "{}"
+      "info": "{}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/4/4e/Limestone.png"
     },
     {
       "id": "0003_0007",
@@ -324,7 +357,8 @@
       "buyValue": 0,
       "sellValue": 17,
       "recipe": "[]",
-      "info": "{}"
+      "info": "{}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/0/01/Amber.png"
     },
     {
       "id": "0003_0008",
@@ -334,7 +368,8 @@
       "buyValue": 0,
       "sellValue": 17,
       "recipe": "[]",
-      "info": "{}"
+      "info": "{}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/c/c4/Tin_Ore.png"
     },
     {
       "id": "0003_0009",
@@ -344,7 +379,8 @@
       "buyValue": 0,
       "sellValue": 28,
       "recipe": "[]",
-      "info": "{}"
+      "info": "{}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/9/9f/Amethyst_Ore.png"
     },
     {
       "id": "0003_0010",
@@ -354,7 +390,8 @@
       "buyValue": 0,
       "sellValue": 43,
       "recipe": "[]",
-      "info": "{}"
+      "info": "{}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/9/9f/Emerald_Ore.png"
     },
     {
       "id": "0003_0011",
@@ -364,7 +401,8 @@
       "buyValue": 0,
       "sellValue": 23,
       "recipe": "[]",
-      "info": "{}"
+      "info": "{}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/8/82/Marble.png"
     },
     {
       "id": "0003_0012",
@@ -374,7 +412,8 @@
       "buyValue": 0,
       "sellValue": 66,
       "recipe": "[]",
-      "info": "{}"
+      "info": "{}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/3/39/Jade_Ore.png"
     },
     {
       "id": "0003_0013",
@@ -384,7 +423,8 @@
       "buyValue": 0,
       "sellValue": 66,
       "recipe": "[]",
-      "info": "{}"
+      "info": "{}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/9/97/Silver_Ore.png"
     },
     {
       "id": "0003_0014",
@@ -394,7 +434,8 @@
       "buyValue": 0,
       "sellValue": 100,
       "recipe": "[]",
-      "info": "{}"
+      "info": "{}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/b/b9/Opal_Ore.png"
     },
     {
       "id": "0003_0015",
@@ -404,7 +445,8 @@
       "buyValue": 0,
       "sellValue": 100,
       "recipe": "[]",
-      "info": "{}"
+      "info": "{}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/4/4a/Granite.png"
     },
     {
       "id": "0003_0016",
@@ -414,7 +456,8 @@
       "buyValue": 0,
       "sellValue": 47,
       "recipe": "[]",
-      "info": "{}"
+      "info": "{}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/4/4a/Granite.png"
     },
     {
       "id": "0003_0017",
@@ -424,7 +467,8 @@
       "buyValue": 0,
       "sellValue": 153,
       "recipe": "[]",
-      "info": "{}"
+      "info": "{}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/d/d7/Ruby_Ore.png"
     },
     {
       "id": "0003_0018",
@@ -434,7 +478,8 @@
       "buyValue": 0,
       "sellValue": 0,
       "recipe": "[]",
-      "info": "{}"
+      "info": "{}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/9/97/Diamond_Ore.png"
     },
     {
       "id": "0004_0001",
@@ -444,7 +489,8 @@
       "buyValue": 60,
       "sellValue": 0,
       "recipe": "[{\"item_id\": \"0003_0001\", \"amount\": 3}]",
-      "info": "{\"uses_count\": 8}"
+      "info": "{\"process_time\": 180, \"equipment\": \"0008_0002\", \"uses_count\": 8}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/1/16/Rusty_Axe.png"
     },
     {
       "id": "0004_0002",
@@ -454,7 +500,8 @@
       "buyValue": 152,
       "sellValue": 0,
       "recipe": "[{\"item_id\": \"0000_0001\", \"amount\": 8}, {\"item_id\": \"0003_0003\", \"amount\": 2}]",
-      "info": "{\"uses_count\": 12}"
+      "info": "{\"process_time\": 300, \"equipment\": \"0008_0002\", \"uses_count\": 12}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/8/81/Iron_Axe.png"
     },
     {
       "id": "0004_0003",
@@ -464,7 +511,8 @@
       "buyValue": 334,
       "sellValue": 0,
       "recipe": "[{\"item_id\": \"0000_0001\", \"amount\": 16}, {\"item_id\": \"0003_0002\", \"amount\": 2}, {\"item_id\": \"0003_0005\", \"amount\": 2}]",
-      "info": "{\"uses_count\": 14}"
+      "info": "{\"process_time\": 600, \"equipment\": \"0008_0002\", \"uses_count\": 14}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/2/21/Copper_Axe.png"
     },
     {
       "id": "0004_0004",
@@ -474,7 +522,8 @@
       "buyValue": 612,
       "sellValue": 0,
       "recipe": "[{\"item_id\": \"0000_0001\", \"amount\": 30}, {\"item_id\": \"0003_0002\", \"amount\": 5}, {\"item_id\": \"0003_0008\", \"amount\": 2}]",
-      "info": "{\"uses_count\": 16}"
+      "info": "{\"process_time\": 900, \"equipment\": \"0008_0002\", \"uses_count\": 16}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/7/7a/Tin_Axe.png"
     },
     {
       "id": "0004_0005",
@@ -484,7 +533,8 @@
       "buyValue": 730,
       "sellValue": 0,
       "recipe": "[{\"item_id\": \"0000_0001\", \"amount\": 40}, {\"item_id\": \"0003_0002\", \"amount\": 5}, {\"item_id\": \"0007_0006\", \"amount\": 1}]",
-      "info": "{\"uses_count\": 18}"
+      "info": "{\"process_time\": 1800, \"equipment\": \"0008_0002\", \"uses_count\": 18}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/c/ce/Steel_Axe.png"
     },
     {
       "id": "0005_0001",
@@ -494,7 +544,8 @@
       "buyValue": 60,
       "sellValue": 0,
       "recipe": "[{\"item_id\": \"0003_0001\", \"amount\": 3}]",
-      "info": "{\"uses_count\": 8}"
+      "info": "{\"process_time\": 180, \"equipment\": \"0008_0002\", \"uses_count\": 8}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/2/2d/Rusty_Pickaxe.png"
     },
     {
       "id": "0005_0002",
@@ -504,7 +555,8 @@
       "buyValue": 152,
       "sellValue": 0,
       "recipe": "[{\"item_id\": \"0000_0001\", \"amount\": 8}, {\"item_id\": \"0003_0003\", \"amount\": 2}]",
-      "info": "{\"uses_count\": 12}"
+      "info": "{\"process_time\": 300, \"equipment\": \"0008_0002\", \"uses_count\": 12}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/a/a2/Iron_Pickaxe.png"
     },
     {
       "id": "0005_0003",
@@ -514,7 +566,8 @@
       "buyValue": 334,
       "sellValue": 0,
       "recipe": "[{\"item_id\": \"0000_0001\", \"amount\": 16}, {\"item_id\": \"0003_0002\", \"amount\": 2}, {\"item_id\": \"0003_0005\", \"amount\": 2}]",
-      "info": "{\"uses_count\": 14}"
+      "info": "{\"process_time\": 600, \"equipment\": \"0008_0002\", \"uses_count\": 14}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/d/d7/Copper_Pickaxe.png"
     },
     {
       "id": "0005_0004",
@@ -524,7 +577,8 @@
       "buyValue": 612,
       "sellValue": 0,
       "recipe": "[{\"item_id\": \"0000_0001\", \"amount\": 30}, {\"item_id\": \"0003_0002\", \"amount\": 5}, {\"item_id\": \"0003_0008\", \"amount\": 2}]",
-      "info": "{\"uses_count\": 16}"
+      "info": "{\"process_time\": 900, \"equipment\": \"0008_0002\", \"uses_count\": 16}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/3/39/Tin_Pickaxe.png"
     },
     {
       "id": "0005_0005",
@@ -534,7 +588,8 @@
       "buyValue": 2944,
       "sellValue": 0,
       "recipe": "[{\"item_id\": \"0000_0001\", \"amount\": 40}, {\"item_id\": \"0003_0002\", \"amount\": 5}, {\"item_id\": \"0007_0006\", \"amount\": 1}]",
-      "info": "{\"uses_count\": 18}"
+      "info": "{\"process_time\": 1800, \"equipment\": \"0008_0002\", \"uses_count\": 18}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/d/d1/Steel_Pickaxe.png"
     },
     {
       "id": "0006_0001",
@@ -544,7 +599,8 @@
       "buyValue": 74,
       "sellValue": 0,
       "recipe": "[{\"item_id\": \"0000_0001\", \"amount\": 4}, {\"item_id\": \"0003_0003\", \"amount\": 1}]",
-      "info": "{\"uses_count\": 6}"
+      "info": "{\"process_time\": 180, \"equipment\": \"0008_0002\", \"uses_count\": 6}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/9/90/Rusty_Fishingrod.png"
     },
     {
       "id": "0006_0002",
@@ -554,7 +610,8 @@
       "buyValue": 152,
       "sellValue": 0,
       "recipe": "[{\"item_id\": \"0000_0001\", \"amount\": 8}, {\"item_id\": \"0003_0003\", \"amount\": 2}]",
-      "info": "{\"uses_count\": 12}"
+      "info": "{\"process_time\": 300, \"equipment\": \"0008_0002\", \"uses_count\": 12}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/4/4b/Iron_Fishingrod.png"
     },
     {
       "id": "0006_0003",
@@ -564,7 +621,8 @@
       "buyValue": 2944,
       "sellValue": 0,
       "recipe": "[{\"item_id\": \"0000_0002\", \"amount\": 7}, {\"item_id\": \"0007_0006\", \"amount\": 1}, {\"item_id\": \"0003_0002\", \"amount\": 2}]",
-      "info": "{\"uses_count\": 18}"
+      "info": "{\"process_time\": 1800, \"equipment\": \"0008_0002\", \"uses_count\": 18}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/1/1f/Steel_Fishingrod.png"
     },
     {
       "id": "0007_0001",
@@ -573,7 +631,8 @@
       "buyValue": 0,
       "sellValue": 20,
       "recipe": "[{\"item_id\": \"0003_0002\", \"amount\": 1}, {\"item_id\": \"0003_0003\", \"amount\": 2}]",
-      "info": "{}"
+      "info": "{\"process_time\": 300, \"equipment\": \"0008_0007\"}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/6/6c/Iron_Bar.png"
     },
     {
       "id": "0007_0002",
@@ -582,7 +641,8 @@
       "buyValue": 0,
       "sellValue": 37,
       "recipe": "[{\"item_id\": \"0003_0002\", \"amount\": 12}, {\"item_id\": \"0003_0004\", \"amount\": 3}]",
-      "info": "{}"
+      "info": "{\"process_time\": 600, \"equipment\": \"0008_0007\"}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/c/cf/Quartz.png"
     },
     {
       "id": "0007_0003",
@@ -591,7 +651,8 @@
       "buyValue": 0,
       "sellValue": 58,
       "recipe": "[{\"item_id\": \"0003_0002\", \"amount\": 4}, {\"item_id\": \"0003_0005\", \"amount\": 3}]",
-      "info": "{}"
+      "info": "{\"process_time\": 600, \"equipment\": \"0008_0007\"}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/f/f1/Copper_Bar.png"
     },
     {
       "id": "0007_0004",
@@ -600,7 +661,8 @@
       "buyValue": 0,
       "sellValue": 110,
       "recipe": "[{\"item_id\": \"0003_0002\", \"amount\": 3}, {\"item_id\": \"0003_0008\", \"amount\": 5}]",
-      "info": "{}"
+      "info": "{\"process_time\": 900, \"equipment\": \"0008_0007\"}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/d/d6/Tin_Bar.png"
     },
     {
       "id": "0007_0005",
@@ -609,7 +671,8 @@
       "buyValue": 0,
       "sellValue": 72,
       "recipe": "[{\"item_id\": \"0003_0002\", \"amount\": 3}, {\"item_id\": \"0003_0007\", \"amount\": 3}]",
-      "info": "{}"
+      "info": "{\"process_time\": 900, \"equipment\": \"0008_0007\"}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/4/4e/Refined_Amber.png"
     },
     {
       "id": "0007_0006",
@@ -618,7 +681,8 @@
       "buyValue": 0,
       "sellValue": 80,
       "recipe": "[{\"item_id\": \"0007_0001\", \"amount\": 2}, {\"item_id\": \"0007_0007\", \"amount\": 1}]",
-      "info": "{}"
+      "info": "{\"process_time\": 1200, \"equipment\": \"0008_0007\"}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/2/20/Steel_Bar.png"
     },
     {
       "id": "0007_0007",
@@ -627,7 +691,8 @@
       "buyValue": 0,
       "sellValue": 27,
       "recipe": "[{\"item_id\": \"0003_0002\", \"amount\": 5}]",
-      "info": "{}"
+      "info": "{\"process_time\": 600, \"equipment\": \"0008_0007\"}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/a/a9/Brown_Coal.png"
     },
     {
       "id": "0007_0008",
@@ -636,7 +701,188 @@
       "buyValue": 0,
       "sellValue": 43,
       "recipe": "[{\"item_id\": \"0003_0002\", \"amount\": 2}, {\"item_id\": \"0003_0009\", \"amount\": 1}]",
-      "info": "{}"
+      "info": "{\"process_time\": 1800, \"equipment\": \"0008_0007\"}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/2/2e/Amethyst.png"
+    },
+    {
+      "id": "0007_0009",
+      "name": "Emerald",
+      "type": "0012",
+      "buyValue": 0,
+      "sellValue": 167,
+      "recipe": "[{\"item_id\": \"0003_0002\", \"amount\": 2}, {\"item_id\": \"0003_0010\", \"amount\": 3}]",
+      "info": "{\"process_time\": 2700, \"equipment\": \"0008_0007\"}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/6/6a/Emerald.png"
+    },
+    {
+      "id": "0007_0010",
+      "name": "Bronze Bar",
+      "type": "0011",
+      "buyValue": 0,
+      "sellValue": 114,
+      "recipe": "[{\"item_id\": \"0003_0002\", \"amount\": 3}, {\"item_id\": \"0003_0005\", \"amount\": 3}, {\"item_id\": \"0003_0008\", \"amount\": 3}]",
+      "info": "{\"process_time\": 1800, \"equipment\": \"0008_0007\"}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/4/4c/Bronze_Bar.png"
+    },
+    {
+      "id": "0008_0001",
+      "name": "Crafting Table",
+      "type": "0013",
+      "buyValue": 0,
+      "sellValue": 0,
+      "recipe": "[]",
+      "info": "{}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/2/2a/Crafting_Task.png"
+    },
+    {
+      "id": "0008_0002",
+      "name": "Toolmaker",
+      "type": "0013",
+      "buyValue": 0,
+      "sellValue": 0,
+      "recipe": "[]",
+      "info": "{\"process_time\": 300, \"equipment\": \"0008_0001\"}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/d/d5/Toolmaker.png"
+    },
+    {
+      "id": "0008_0003",
+      "name": "Fermentation Pot",
+      "type": "0013",
+      "buyValue": 0,
+      "sellValue": 0,
+      "recipe": "[]",
+      "info": "{\"process_time\": 10, \"equipment\": \"0008_0001\"}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/8/84/Fermentation_Pot.png"
+    },
+    {
+      "id": "0008_0004",
+      "name": "Chicken Coop",
+      "type": "0013",
+      "buyValue": 0,
+      "sellValue": 0,
+      "recipe": "[]",
+      "info": "{\"process_time\": 20, \"equipment\": \"0008_0001\"}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/2/2e/Chicken_Coop.png"
+    },
+    {
+      "id": "0008_0005",
+      "name": "Rocket",
+      "type": "0013",
+      "buyValue": 0,
+      "sellValue": 0,
+      "recipe": "[]",
+      "info": "{\"process_time\": 100, \"equipment\": \"0008_0001\"}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/2/2a/Crafting_Task.png"
+    },
+    {
+      "id": "0008_0006",
+      "name": "Kitchen",
+      "type": "0013",
+      "buyValue": 0,
+      "sellValue": 0,
+      "recipe": "[]",
+      "info": "{\"process_time\": 300, \"equipment\": \"0008_0001\"}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/0/0e/Kitchen.png"
+    },
+    {
+      "id": "0008_0007",
+      "name": "Furnace",
+      "type": "0013",
+      "buyValue": 0,
+      "sellValue": 0,
+      "recipe": "[]",
+      "info": "{\"process_time\": 600, \"equipment\": \"0008_0001\"}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/0/0f/Furnace.png"
+    },
+    {
+      "id": "0008_0008",
+      "name": "Mill",
+      "type": "0013",
+      "buyValue": 0,
+      "sellValue": 0,
+      "recipe": "[]",
+      "info": "{\"process_time\": 900, \"equipment\": \"0008_0001\"}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/9/90/Mill.png"
+    },
+    {
+      "id": "0008_0009",
+      "name": "Cattle Barn",
+      "type": "0013",
+      "buyValue": 0,
+      "sellValue": 0,
+      "recipe": "[]",
+      "info": "{\"process_time\": 3600, \"equipment\": \"0008_0001\"}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/0/02/Cattle_Barn.png"
+    },
+    {
+      "id": "0008_0010",
+      "name": "Baitmaker",
+      "type": "0013",
+      "buyValue": 0,
+      "sellValue": 0,
+      "recipe": "[]",
+      "info": "{\"process_time\": 900, \"equipment\": \"0008_0001\"}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/9/91/Baitmaker.png"
+    },
+    {
+      "id": "0008_0011",
+      "name": "Keg",
+      "type": "0013",
+      "buyValue": 0,
+      "sellValue": 0,
+      "recipe": "[]",
+      "info": "{\"process_time\": 2700, \"equipment\": \"0008_0001\"}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/7/7c/Keg.png"
+    },
+    {
+      "id": "0009_0001",
+      "name": "Marshmallow Bait",
+      "type": "0014",
+      "buyValue": 0,
+      "sellValue": 25,
+      "recipe": "[]",
+      "info": "{\"process_time\": 600, \"equipment\": \"0008_0010\"}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/2/27/Marshmallow_Bait.png"
+    },
+    {
+      "id": "0009_0002",
+      "name": "Dummy Fish",
+      "type": "0015",
+      "buyValue": 0,
+      "sellValue": 30,
+      "recipe": "[]",
+      "info": "{\"process_time\": 900, \"equipment\": \"0008_0010\"}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/b/b9/Dummy_Fish.png"
+    },
+    {
+      "id": "0009_0003",
+      "name": "Shinyspoon Lure",
+      "type": "0016",
+      "buyValue": 0,
+      "sellValue": 80,
+      "recipe": "[]",
+      "info": "{\"process_time\": 1200, \"equipment\": \"0008_0010\"}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/7/7f/Shinyspoon_Lure.png"
+    },
+    {
+      "id": "0009_0004",
+      "name": "Hairy Jig",
+      "type": "0017",
+      "buyValue": 0,
+      "sellValue": 21,
+      "recipe": "[]",
+      "info": "{\"process_time\": 1800, \"equipment\": \"0008_0010\"}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/7/7e/Hairy_Jig.png"
+    },
+    {
+      "id": "0009_0005",
+      "name": "Stink Bait",
+      "type": "0018",
+      "buyValue": 0,
+      "sellValue": 45,
+      "recipe": "[]",
+      "info": "{\"process_time\": 2400, \"equipment\": \"0008_0010\"}",
+      "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/9/90/Stink_Bait.png"
     }
   ]
 }

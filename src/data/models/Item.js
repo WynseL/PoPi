@@ -7,7 +7,8 @@ export const itemValue = {
   buyValue: 0.0,
   sellValue: 0.0,
   recipe: [],
-  info: {}
+  info: {},
+  photo: ""
 };
 
 export const setItemValue = (jsonItem) => {
@@ -24,7 +25,8 @@ export const setItemValue = (jsonItem) => {
     buyValue: jsonItem.buyValue,
     sellValue: jsonItem.sellValue,
     recipe,
-    info
+    info,
+    photo: jsonItem.photo
   };
 };
 

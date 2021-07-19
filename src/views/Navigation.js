@@ -6,7 +6,8 @@ import {
   IconButton,
   Typography,
   Tabs,
-  Tab
+  Tab,
+  CssBaseline
 } from "@material-ui/core";
 import { TabContext, TabPanel } from "@material-ui/lab";
 import MenuIcon from "@material-ui/icons/Menu";
@@ -24,8 +25,9 @@ const Navigation = () => {
   };
 
   return (
-    <TabContext value={key} height={height} width={width}>
-      <AppBar position="static">
+    <TabContext value={key}>
+      <CssBaseline />
+      <AppBar position="sticky">
         <Toolbar>
           <IconButton
             edge="start"
@@ -43,10 +45,10 @@ const Navigation = () => {
         </Tabs>
       </AppBar>
       <TabPanel value="0">
-        <HomeScreen />
+        <HomeScreen height={height} width={width} />
       </TabPanel>
       <TabPanel value="1">
-        <CropsScreen height={height} width={width} />
+        <CropsScreen />
       </TabPanel>
     </TabContext>
   );
