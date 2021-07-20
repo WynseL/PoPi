@@ -42,12 +42,62 @@ export const printTime = (time) => {
   return hrDisplay + minDisplay + secDisplay;
 };
 
+// for d3 tree data
 export const convertToTree = (item, amount) => {
   let children = [];
   item.recipe.forEach((recipe) => {
     let newItem = convertToTree(recipe.item, recipe.amount);
     children.push(newItem);
   });
+  console.log(item);
+  const info = item.info;
+  if ("equipment" in info) {
+    const equipment = {
+      name: item.info.equipment.name,
+      attributes: item.info.equipment,
+      children: children
+    };
 
+    return {
+      name: item.name,
+      attributes: { ...item, amount: amount },
+      children: [equipment]
+    };
+  }
   return { name: item.name, attributes: { ...item, amount: amount }, children };
+};
+
+//
+export const baseRawMaterials = (item) => {
+  let baseMaterials = [];
+  item.children.forEach((childrenItem) => {
+    const newItem = childrenItem.attributes;
+    const amount = newItem.amount;
+
+    if (childrenItem.children.length !== 0) {
+      baseMaterials = [...baseMaterials, ...baseRawMaterials(childrenItem)];
+    } else {
+      baseMaterials.push({ item: newItem, amount: amount });
+    }
+  });
+
+  return baseMaterials;
+};
+
+export const rawMaterials = (item) => {
+  let materials = [];
+  const baseMaterials = baseRawMaterials(item);
+  baseMaterials.forEach((material) => {
+    const exists =
+      materials.findIndex((m) => m.item.id === material.item.id) !== -1;
+    if (!exists) {
+      const filter = baseMaterials.filter(
+        (mat) => material.item.id === mat.item.id
+      );
+      const amount = filter.reduce((prev, cur) => prev + cur.amount, 0);
+      materials.push({ item: material.item, amount: amount });
+    }
+  });
+
+  return materials.sort((a, b) => b.amount - a.amount);
 };

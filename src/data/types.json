@@ -50,5 +50,9 @@
   {
     "id": "0013",
     "type": "Equipment"
+  },
+  {
+    "id": "0014",
+    "type": "Lure/Bait"
   }
 ]

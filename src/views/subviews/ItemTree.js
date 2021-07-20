@@ -5,10 +5,7 @@ import { Tooltip, Zoom } from "@material-ui/core";
 
 const ItemTree = (props) => {
   const { height, item } = props;
-  const nodeSize = { x: 180, y: 100 };
   const foreignObjectProps = {
-    width: nodeSize.x,
-    height: nodeSize.y,
     x: -150, //-150
     y: 45 //-100
   };
@@ -71,8 +68,7 @@ const ItemTree = (props) => {
     >
       <Tree
         data={item}
-        nodeSize={nodeSize}
-        pathFunc="step"
+        pathFunc="elbow"
         orientation="horizontal"
         renderCustomNodeElement={(rd3tProps) =>
           renderNode({ ...rd3tProps, foreignObjectProps })

@@ -35,15 +35,10 @@ class CropsRepository {
       return objects;
     }
 
-    const type = this.typesData.find((type) => type.id === item.type).type;
-    const subtype =
-      item.subtype !== undefined
-        ? this.typesData.find((type) => type.id === item.subtype).type
-        : undefined;
-
+    // set recipes
     item.recipe.forEach((recipe) => {
       var addItem;
-      switch (type) {
+      switch (item.type) {
         case "0001":
           let seedId = this.itemsData.find(
             (item) => item.id === recipe.seed_id
@@ -64,13 +59,26 @@ class CropsRepository {
 
       objects.push(addItem);
     });
+    item.recipe = objects;
 
-    let newItem = { ...item, type, subtype, recipe: objects };
-    return newItem;
+    // set type/subtype
+    item.type = this.typesData.find((type) => type.id === item.type).type;
+    item.subtype =
+      item.subtype !== undefined
+        ? this.typesData.find((type) => type.id === item.subtype).type
+        : undefined;
+
+    // set equipment
+    item.info.equipment = this.itemsData.find(
+      (curItem) => curItem.id === item.info.equipment
+    );
+
+    return item;
   }
 
   getTreeData(item) {
     let normalizedData = this.normalizeData(item);
+    console.log(normalizedData);
     return convertToTree(normalizedData);
   }
 }

@@ -52,6 +52,7 @@ const Home = (props) => {
       {Object.keys(item).length !== 0 ? (
         <div>
           <ItemTree height={height} item={item} />
+          <br />
           <ItemInformation item={item} />
         </div>
       ) : null}

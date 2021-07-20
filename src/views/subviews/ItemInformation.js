@@ -1,27 +1,43 @@
 import React from "react";
 import { Typography, Chip } from "@material-ui/core";
+import { rawMaterials } from "../../data/models/Item";
 
 const ItemInformation = (props) => {
   const { item } = props;
+  const materials = rawMaterials(item);
 
   return (
     <div align="left">
-      <Typography variant="h3" color="textPrimary" gutterBottom>
+      <Typography variant="h3" color="textPrimary">
         {item.name}
       </Typography>
-      <Chip size="small" label={item.type} />
-      {item.subtype !== undefined ? (
-        <Chip size="small" label={item.subtype} />
-      ) : null}
-      <Typography variant="subtitle2" color="textSecondary" gutterBottom>
-        {item.description !== undefined ? item.description : "no description"}
+      <Typography variant="h6" color="textPrimary" gutterBottom>
+        Items Required
       </Typography>
-      <Typography variant="body2" color="textPrimary">
-        Buy Value: {item.buyValue}
-      </Typography>
-      <Typography variant="body2" color="textPrimary">
-        Sell Value: {item.sellValue}
-      </Typography>
+      <table>
+        <tr>
+          <th></th>
+          <th>1x</th>
+          <th>2x</th>
+          <th>3x</th>
+          <th>5x</th>
+          <th>10x</th>
+        </tr>
+        {materials.map((mat) => {
+          return (
+            <tr align="center">
+              <td>
+                <img height="30px" width="30px" src={mat.item.photo} alt="" />
+              </td>
+              <td>{mat.amount}</td>
+              <td>{mat.amount * 2}</td>
+              <td>{mat.amount * 3}</td>
+              <td>{mat.amount * 5}</td>
+              <td>{mat.amount * 10}</td>
+            </tr>
+          );
+        })}
+      </table>
     </div>
   );
 };

@@ -847,7 +847,7 @@
     {
       "id": "0009_0002",
       "name": "Dummy Fish",
-      "type": "0015",
+      "type": "0014",
       "buyValue": 0,
       "sellValue": 30,
       "recipe": "[]",
@@ -857,17 +857,17 @@
     {
       "id": "0009_0003",
       "name": "Shinyspoon Lure",
-      "type": "0016",
+      "type": "0014",
       "buyValue": 0,
       "sellValue": 80,
-      "recipe": "[]",
+      "recipe": "[{\"item_id\": \"0007_0002\", \"amount\": 5}, {\"item_id\": \"0007_0005\", \"amount\": 3}, {\"item_id\": \"0007_0004\", \"amount\": 3}]",
       "info": "{\"process_time\": 1200, \"equipment\": \"0008_0010\"}",
       "photo": "https://static.wikia.nocookie.net/pocket-pioneers/images/7/7f/Shinyspoon_Lure.png"
     },
     {
       "id": "0009_0004",
       "name": "Hairy Jig",
-      "type": "0017",
+      "type": "0014",
       "buyValue": 0,
       "sellValue": 21,
       "recipe": "[]",
@@ -877,7 +877,7 @@
     {
       "id": "0009_0005",
       "name": "Stink Bait",
-      "type": "0018",
+      "type": "0014",
       "buyValue": 0,
       "sellValue": 45,
       "recipe": "[]",
