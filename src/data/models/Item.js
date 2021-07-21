@@ -49,19 +49,27 @@ export const convertToTree = (item, amount) => {
     let newItem = convertToTree(recipe.item, recipe.amount);
     children.push(newItem);
   });
-  console.log(item);
   const info = item.info;
-  if ("equipment" in info) {
-    const equipment = {
-      name: item.info.equipment.name,
-      attributes: item.info.equipment,
+
+  console.log(info);
+  var equipment = item.info.equipment;
+  if (info.hasOwnProperty("equipment") && equipment !== undefined) {
+    const equipmentName = item.info.equipment.name;
+    if (info.hasOwnProperty("process_time")) {
+      const processTime = item.info.process_time;
+      equipment = { ...equipment, process_time: processTime };
+    }
+
+    const equipmentChild = {
+      name: equipmentName,
+      attributes: equipment,
       children: children
     };
 
     return {
       name: item.name,
       attributes: { ...item, amount: amount },
-      children: [equipment]
+      children: [equipmentChild]
     };
   }
   return { name: item.name, attributes: { ...item, amount: amount }, children };

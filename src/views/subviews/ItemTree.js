@@ -14,8 +14,14 @@ const ItemTree = (props) => {
     const photoSize = 50;
     const counterCoordinates = { x: -28, y: -24 };
     const counterStyle = { font: "bold", fill: "black" };
-
     const amount = nodeDatum.attributes.amount;
+    const info = nodeDatum.attributes.info;
+    const isEquipment =
+      nodeDatum.attributes.type === "0013" &&
+      info.hasOwnProperty("process_time");
+
+    // console.log(nodeDatum.attributes)
+    // console.log(info.hasOwnProperty("process_time"))
     return (
       <g>
         <Tooltip
@@ -33,7 +39,7 @@ const ItemTree = (props) => {
               x={photoSize / -2}
               y={photoSize / -2}
             />
-            {amount !== undefined ? (
+            {amount !== undefined || isEquipment ? (
               <g>
                 <circle
                   r={13}
@@ -48,7 +54,7 @@ const ItemTree = (props) => {
                   fill="#e6e6e6"
                 />
                 <text x="-36" y="-20" style={counterStyle}>
-                  {nodeDatum.attributes.amount}
+                  {isEquipment ? info.process_time : amount}
                 </text>
               </g>
             ) : null}
@@ -57,7 +63,7 @@ const ItemTree = (props) => {
       </g>
     );
   };
-
+  // console.log(item);
   return (
     <div
       style={{

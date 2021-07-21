@@ -41,7 +41,7 @@ class CropsRepository {
       switch (item.type) {
         case "0001":
           let seedId = this.itemsData.find(
-            (item) => item.id === recipe.seed_id
+            (item) => item.id === recipe.item_id
           );
           var checkItem = setItemValue(seedId);
           addItem = { item: checkItem, amount: 1 };
@@ -78,7 +78,6 @@ class CropsRepository {
 
   getTreeData(item) {
     let normalizedData = this.normalizeData(item);
-    console.log(normalizedData);
     return convertToTree(normalizedData);
   }
 }

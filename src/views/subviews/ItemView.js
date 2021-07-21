@@ -18,7 +18,7 @@ const subtitleStyle = {
 
 const ItemView = (props) => {
   const { item } = props;
-  // console.log(item);
+  console.log(item);
   return (
     <Box display="inline-block" minWidth="200px" style={containerStyle}>
       <Typography variant="h5" color="textPrimary" gutterBottom>
@@ -29,7 +29,7 @@ const ItemView = (props) => {
         <Chip size="small" label={item.subtype} />
       ) : null}
       <Typography
-        variant="subtitle2"
+        variant="body2"
         color="textSecondary"
         style={subtitleStyle}
         gutterBottom

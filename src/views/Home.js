@@ -23,6 +23,7 @@ const Home = (props) => {
   const setItemListener = (event, value) => {
     if (value !== null) {
       const item = setItemValue(value);
+      console.log(value);
       let normalized = itemsRepo.getTreeData(item);
       setItem(normalized);
     }
@@ -40,6 +41,12 @@ const Home = (props) => {
         onChange={setItemListener}
         inputValue={inputValue}
         onInputChange={setInputValueListener}
+        getOptionLabel={(option) =>
+          option.hasOwnProperty("name") ? option.name : ""
+        }
+        getOptionSelected={(option, value) =>
+          value.hasOwnProperty("name") ? option.name === value.name : true
+        }
         renderInput={(params) => (
           <TextField
             {...params}

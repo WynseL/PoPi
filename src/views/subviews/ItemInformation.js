@@ -15,28 +15,32 @@ const ItemInformation = (props) => {
         Items Required
       </Typography>
       <table>
-        <tr>
-          <th></th>
-          <th>1x</th>
-          <th>2x</th>
-          <th>3x</th>
-          <th>5x</th>
-          <th>10x</th>
-        </tr>
-        {materials.map((mat) => {
-          return (
-            <tr align="center">
-              <td>
-                <img height="30px" width="30px" src={mat.item.photo} alt="" />
-              </td>
-              <td>{mat.amount}</td>
-              <td>{mat.amount * 2}</td>
-              <td>{mat.amount * 3}</td>
-              <td>{mat.amount * 5}</td>
-              <td>{mat.amount * 10}</td>
-            </tr>
-          );
-        })}
+        <thead>
+          <tr>
+            <th></th>
+            <th>1x</th>
+            <th>2x</th>
+            <th>3x</th>
+            <th>5x</th>
+            <th>10x</th>
+          </tr>
+        </thead>
+        <tbody>
+          {materials.map((mat) => {
+            return (
+              <tr key={mat.item.id} align="center">
+                <td>
+                  <img height="30px" width="30px" src={mat.item.photo} alt="" />
+                </td>
+                <td>{mat.amount}</td>
+                <td>{mat.amount * 2}</td>
+                <td>{mat.amount * 3}</td>
+                <td>{mat.amount * 5}</td>
+                <td>{mat.amount * 10}</td>
+              </tr>
+            );
+          })}
+        </tbody>
       </table>
     </div>
   );
